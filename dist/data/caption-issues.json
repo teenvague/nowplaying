@@ -1,5 +1,10 @@
 [
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1459, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_tokens\": 4096, \"output_tokens_details\": {\"thinking_tokens\": 4096}, \"service_tier\": \"standard\", \"inference_geo\": \"global\"}, \"top_level_keys\":"
+  },
+  {
     "title": "Private Event Today in Theater & Commissary",
     "reason": "no_reply",
     "candidate": ""
@@ -11,8 +16,8 @@
   },
   {
     "title": "Solaris",
-    "reason": "will_not_split_in_two",
-    "candidate": "A psychologist confronts memories aboard a space station."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Pastorale",
@@ -23,11 +28,6 @@
     "title": "Farewell, Home Sweet Home",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"La Haine\": \"Youths rage against police\\nin a poor Paris suburb.\", \"Happy Together\": \"A couple's rocky romance\\nunravels in Buenos Aires.\", \"Chasing"
   },
   {
     "title": "La Haine",
@@ -65,6 +65,11 @@
     "candidate": ""
   },
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1451, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_tokens\": 4096, \"output_tokens_details\": {\"thinking_tokens\": 4096}, \"service_tier\": \"standard\", \"inference_geo\": \"global\"}, \"top_level_keys\":"
+  },
+  {
     "title": "Daughter's Daughter",
     "reason": "no_reply",
     "candidate": ""
@@ -88,11 +93,6 @@
     "title": "The Double",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1312, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_"
   },
   {
     "title": "Iphigenia",
@@ -130,6 +130,11 @@
     "candidate": ""
   },
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1524, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_tokens\": 4096, \"output_tokens_details\": {\"thinking_tokens\": 4096}, \"service_tier\": \"standard\", \"inference_geo\": \"global\"}, \"top_level_keys\":"
+  },
+  {
     "title": "Pushing Hands",
     "reason": "no_reply",
     "candidate": ""
@@ -153,11 +158,6 @@
     "title": "Fireflies Press Presents: Morvern Callar",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Ryuichi Sakamoto: Coda (2017)\": \"A composer returns to music\\nafter facing his mortality.\", \"RoboCop - The Director's Cut (1987)\": \"A slain cop is rebuilt as\\na cyborg enforcer of justice.\", \"O Brother, Where Art Thou? (2000)\": \"Three convicts flee a chain\\ngang in search of treasure.\", \""
   },
   {
     "title": "Ryuichi Sakamoto: Coda",
@@ -193,6 +193,11 @@
     "title": "Amour",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1480, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_tokens\": 4096, \"output_tokens_details\": {\"thinking_tokens\": 4096}, \"service_tier\": \"standard\", \"inference_geo\": \"global\"}, \"top_level_keys\":"
   },
   {
     "title": "The Taking of Pelham One Two Three",
@@ -253,6 +258,11 @@
     "title": "A Bittersweet Life",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "{ \"The Foul King (2000)\": \"A meek clerk moonlights as a\\nmasked wrestler.\", \"The Draughtsman's Contract + Live Performance | Instruments of Desire (1982)\": \"An artist sketches an estate\\nhiding a conspiracy.\", \"I Walked with a Zombie (1943)\": \"A nurse tends a possibly\\nzombified plantation wife.\" }"
   },
   {
     "title": "The Foul King",
