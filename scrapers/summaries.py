@@ -13,9 +13,11 @@ ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'dist/data/film-summaries.json'
 ISSUES = ROOT / 'dist/data/caption-issues.json'
 API = 'https://api.anthropic.com/v1/messages'
-MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-sonnet-5'
+MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-haiku-4-5-20251001'
 BATCH = 12
-MAX_TOKENS = 4096
+# Replies came back as a single thinking block with stop_reason max_tokens and no
+# text at all, so the budget has to cover the model's reasoning as well as the JSON.
+MAX_TOKENS = 16000
 LINE = 30
 
 BRIEF = (
