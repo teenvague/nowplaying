@@ -1,0 +1,1464 @@
+{
+  "demo": {
+    "Persona": "stills/d28190bb425d3800.jpg",
+    "Possession": "stills/bba8072b3158c329.jpg",
+    "The Conformist": "stills/a3c46a8d4aca791c.jpg"
+  },
+  "sources": {
+    "https://metrograph.com/film/?vista_film_id=9999004974": {
+      "url": "stills/b8c5397390150c9a.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/JennifersBody_1200x1200_9cd2d8da0f5110cdcc1fd1212ce5b8f329d60d3b.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004974"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003126": {
+      "url": "stills/9aaae59c7fcc7ce4.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2025/05/WOMEN-ON-THE-VERGE._1-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003126"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004975": {
+      "url": "stills/277d3533cfd5d553.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/Der-Fan.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004975"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003304": {
+      "url": "stills/5f98d450f69bc574.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/Raw.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003304"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003764": {
+      "url": "stills/636316508abe34d6.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/Old-Joy.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003764"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004396": {
+      "url": "stills/2fdf9804021d30e9.jpg",
+      "sourceUrl": "https://metrograph.imgix.net/2022/11/2046.jpg?fm=pjpg&ixlib=php-3.3.1",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004396"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002169": {
+      "url": "stills/5142c9c307606bbe.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2025/02/MULHOLLAND-DRIVE_8_resized.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002169"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000571": {
+      "url": "stills/4008df500f541fa0.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/ET.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000571"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000970": {
+      "url": "stills/d92e895eac98f66e.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/After-Hours.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000970"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001195": {
+      "url": "stills/48b674e900e322f0.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/06/The-Hunger.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001195"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000609": {
+      "url": "stills/519e5a29b30654ca.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/TheApartment34.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000609"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001728": {
+      "url": "stills/0a8420bdcc71c691.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/thecityoflostchildren.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001728"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003057": {
+      "url": "stills/a768af4a1e4f116a.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/DAUGHTEROFTHENILE.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003057"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001446": {
+      "url": "stills/2835481ed5a26c5d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2025/05/SHANGHAI-BLUES_2.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001446"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004982": {
+      "url": "stills/5886637c14dca7c4.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/PekingOperaBlues_Feature_UHD-SDR_Still006.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004982"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001727": {
+      "url": "stills/9943980fd7e42ee8.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Delicatessen-4K-Still-1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001727"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001700": {
+      "url": "stills/01d310bb679ed64d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2024/11/PLAYTIME_4_resized.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001700"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001933": {
+      "url": "stills/9481c02cbc0fad6d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2024/07/HAPPY-HOUR_17.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001933"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002246": {
+      "url": "stills/fad765f8fc12c5b7.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2024/02/BrighterSummerDay1-1-1600x900-c-default.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002246"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004978": {
+      "url": "stills/367274ec52c0dc08.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/1980MODEL1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004978"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002021": {
+      "url": "stills/88e233912bc7d414.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Jason-and-the-Argo.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002021"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000356": {
+      "url": "stills/efca89c0e7da860a.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/BRAZIL_slideshow_4.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000356"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004983": {
+      "url": "stills/8a19bb94a15ae3e7.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/clashtitans_main.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004983"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001726": {
+      "url": "stills/abf9cb26d32b1a2b.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/The-Treasure-of-Bitch-Islands.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001726"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004984": {
+      "url": "stills/da291146cdda5486.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Troy-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004984"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001804": {
+      "url": "stills/8da01e304c19030d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2024/08/MILLENNIUM-MAMBO_2.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001804"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004985": {
+      "url": "stills/c7f79e8531fa1531.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/nl0363_hustruer_001.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004985"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004986": {
+      "url": "stills/95946a055639d025.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Don_t-Play-With-Fire-Still-1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004986"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003559": {
+      "url": "stills/8f1a8fedb10a12fb.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Office-Space.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003559"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002255": {
+      "url": "stills/962c9a1c98fa3f8a.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2025/01/UNCUT-GEMS_8.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002255"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004987": {
+      "url": "stills/d714f9dc5817f9eb.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/The-Sandwich-Man.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004987"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003314": {
+      "url": "stills/d5b20fbe04a3dc48.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Stealing-Beauty.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003314"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004988": {
+      "url": "stills/9baf9ee9589843fd.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Den-allvarsamma-leken_003.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004988"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001996": {
+      "url": "stills/99038a23bc0b6282.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/ORPHEUS_6.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001996"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004989": {
+      "url": "stills/f2105ab3804894f8.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/4176_2-nor_Hustruer-ti-ar-etter_FTR-nor_1080p_25_002.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004989"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004990": {
+      "url": "stills/90b27c07131f145f.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/344id_23_189_primary_w1600.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004990"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004991": {
+      "url": "stills/0830b6bc82805d67.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/nl0587_hustrueriii_029.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004991"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003943": {
+      "url": "stills/e539a9c31552580d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2025/11/DUST-IN-THE-WIND.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003943"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001903": {
+      "url": "stills/29653292868d3ffa.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/I-Hired-a-Contract-Killer.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001903"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003028": {
+      "url": "stills/943c3a54ed44f3a3.jpg",
+      "sourceUrl": "https://metrograph.imgix.net/2022/11/RebelsoftheNeonGod1-1.jpeg?fm=pjpg&ixlib=php-3.3.1",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003028"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001730": {
+      "url": "stills/3097d83b6fa0a9c5.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/evita-2000x1415-1-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001730"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004992": {
+      "url": "stills/577358863c2a3c82.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Vendors_03.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004992"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004993": {
+      "url": "stills/6a617f16bd4578a5.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/HerculesintheHauntedWorld_Still_2.png",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004993"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001262": {
+      "url": "stills/5b8c94db971d595c.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/ZU_-WARRIORS-FROM-THE-MAGIC-MOUNTAIN_1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001262"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004994": {
+      "url": "stills/921af7b56904772b.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Arven_3.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004994"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004995": {
+      "url": "stills/9ae680d92d4ed6cb.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/4148_2-nor_Forfolgelsen_FTR-nor_1080p_25_best_frame1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004995"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001293": {
+      "url": "stills/f4397a8765187a90.jpg",
+      "sourceUrl": "https://metrograph.imgix.net/2022/12/yiyi.jpeg?fm=pjpg&ixlib=php-3.3.1",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001293"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004996": {
+      "url": "stills/7f660e7f52cdc633.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Left-Handed_Girl_u_01_42_03_05_R.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004996"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004997": {
+      "url": "stills/5d0dec955991f88d.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Stray-Dogs.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004997"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000127": {
+      "url": "stills/b8b7e547c81d726e.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/The-Blade-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000127"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002763": {
+      "url": "stills/e60a56581d096606.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Knock-Off.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002763"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999000710": {
+      "url": "stills/ee722fb2779eb8f3.jpg",
+      "sourceUrl": "https://metrograph.imgix.net/2023/06/Ghost_in_the_Shell_1995_030.jpeg?fm=pjpg&ixlib=php-3.3.1",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999000710"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002029": {
+      "url": "stills/37cbe71d424874a6.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/PAPRIKA_1.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002029"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002042": {
+      "url": "stills/bf48b6a5a2946368.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Oedipus-rex.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002042"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004998": {
+      "url": "stills/2c2381aa7da903b2.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Notes-for-an-African-Orestes-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004998"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999004999": {
+      "url": "stills/035fa590dc21194b.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/pumping-iron_nDjc1g.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999004999"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002970": {
+      "url": "stills/a8ed057e137c3ffa.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/07/The-Warriors.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002970"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999001343": {
+      "url": "stills/5778e90c687a9240.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Little-Mermaid.jpeg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999001343"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999002034": {
+      "url": "stills/c09ef0ab30a796a8.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/Medea-1969-copy.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999002034"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999003587": {
+      "url": "stills/c6bb1a3766b86561.jpg",
+      "sourceUrl": "https://metrograph.imgix.net/2023/12/timeandtide.jpeg?fm=pjpg&ixlib=php-3.3.1",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999003587"
+    },
+    "https://metrograph.com/film/?vista_film_id=9999005000": {
+      "url": "stills/5cad8e574475b438.jpg",
+      "sourceUrl": "https://metrograph.com/wp-content/uploads/2026/08/SE7EN.jpg",
+      "sourcePage": "https://metrograph.com/film/?vista_film_id=9999005000"
+    },
+    "https://www.ifccenter.com/films/2026-sundance-festival-short-film-tour-open-captioning/": {
+      "url": "stills/eaee48dad7319a44.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/sundanceshorts26-4.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/2026-sundance-festival-short-film-tour-open-captioning/"
+    },
+    "https://www.ifccenter.com/films/2026-sundance-film-festival-short-film-tour/": {
+      "url": "stills/616e06cffa0783ce.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/sundanceshorts26.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/2026-sundance-film-festival-short-film-tour/"
+    },
+    "https://www.ifccenter.com/films/colony-3/": {
+      "url": "stills/027c4fe5015d430d.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/07/colonynew.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/colony-3/"
+    },
+    "https://www.ifccenter.com/films/gandahar/": {
+      "url": "stills/91eec40d45713ff8.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/07/gandahar-6.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/gandahar/"
+    },
+    "https://www.ifccenter.com/films/how-to-divorce-during-the-war/": {
+      "url": "stills/c4f03fb43d16780b.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/07/howtodivorce-20.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/how-to-divorce-during-the-war/"
+    },
+    "https://www.ifccenter.com/films/lightning-bug/": {
+      "url": "stills/8cbf43b1d92a9b0c.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/lightningbug-64.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/lightning-bug/"
+    },
+    "https://www.ifccenter.com/films/maddies-secret/": {
+      "url": "stills/564f09da1c203472.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/05/maddiessecret2.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/maddies-secret/"
+    },
+    "https://www.ifccenter.com/films/the-samurai-and-the-prisoner/": {
+      "url": "stills/dac60e565c550e09.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/06/samuraiandtheprisoner.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-samurai-and-the-prisoner/"
+    },
+    "https://www.ifccenter.com/films/the-sun-never-sets/": {
+      "url": "stills/7a28b2867d8590dd.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/sunneversets_web-148.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-sun-never-sets/"
+    },
+    "https://www.ifccenter.com/films/serpents-path/": {
+      "url": "stills/cb9111051fc0e6eb.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/serpentspath-2.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/serpents-path/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/a-scanner-darkly-35mm/": {
+      "url": "stills/a0ecf8fa9a98c836.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/07/a-scanner-darkly-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/a-scanner-darkly-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/i-want-your-sex/": {
+      "url": "stills/f9246e58afb9997f.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/07/IWantYourSex1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/i-want-your-sex/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/showgirls-2/": {
+      "url": "stills/d6bb29108b015338.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2022/07/showgirls-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/showgirls-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/out-of-the-blue/": {
+      "url": "stills/a9a6ffbfc17805eb.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/out-of-the-blue-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/out-of-the-blue/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-departed-35mm/": {
+      "url": "stills/42831f0f7c99cf6b.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/07/departed-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-departed-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/out-of-the-blue-2/": {
+      "url": "stills/a9a6ffbfc17805eb.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/out-of-the-blue-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/out-of-the-blue-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/teenage-sex-and-death-at-camp-miasma-35mm/": {
+      "url": "stills/9c2ffd766a1bd9c0.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/camp-miasma-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/teenage-sex-and-death-at-camp-miasma-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/showgirls-2-2/": {
+      "url": "stills/d6bb29108b015338.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2022/07/showgirls-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/showgirls-2-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/tony/": {
+      "url": "stills/06e08e50663d800e.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/tony-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/tony/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/leonora-in-the-morning-light-qa/": {
+      "url": "stills/2457e735e66a2b65.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Leonora-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/leonora-in-the-morning-light-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/paint-me-a-road-out-of-here-qa-presented-by-miss-video-4-u/": {
+      "url": "stills/5714b8013892e219.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Paint-Me-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/paint-me-a-road-out-of-here-qa-presented-by-miss-video-4-u/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/outfitumentary-qa/": {
+      "url": "stills/8229121dcdbf2ab1.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/outfit-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/outfitumentary-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/day-night-day-night-35mm-qa/": {
+      "url": "stills/4c4cab333eca9661.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/day-night-day-night-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/day-night-day-night-35mm-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/cinema-tehran-presents-cairo-station-orderly-or-disorderly/": {
+      "url": "stills/c97cc7d565c3939e.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/Cairo-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/cinema-tehran-presents-cairo-station-orderly-or-disorderly/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/skaedown-qa/": {
+      "url": "stills/c335e69265d10271.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/shakedown-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/skaedown-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/wings-of-desire-hidden-in-pieces/": {
+      "url": "stills/8af8ea963c23ff29.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/hidden-in-pieces-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/wings-of-desire-hidden-in-pieces/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/idlewild-35mm/": {
+      "url": "stills/442277fe0f3de85f.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/07/IDLEWILD-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/idlewild-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/zola/": {
+      "url": "stills/662a962fb8316baf.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/zola-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/zola/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/lost-landscapes-of-new-york-with-rick-prelinger/": {
+      "url": "stills/3cd3056d0362950d.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/LL11500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/lost-landscapes-of-new-york-with-rick-prelinger/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-misconceived-35mm-four-by-james-n-kienitz-wilkins/": {
+      "url": "stills/053170e2ba5ffb73.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/THEMISCONCEIVED1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-misconceived-35mm-four-by-james-n-kienitz-wilkins/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/lost-landscapes-of-san-francisco/": {
+      "url": "stills/b302d6e5011b63c2.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/LL21500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/lost-landscapes-of-san-francisco/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/bird-in-hand-qa/": {
+      "url": "stills/f57c85d5572043a7.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/bird-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/bird-in-hand-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-plagiarists-four-by-james-n-kienitz-wilkins/": {
+      "url": "stills/49fc85b20255ceef.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/The_Plagiarists-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-plagiarists-four-by-james-n-kienitz-wilkins/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/still-film-qa/": {
+      "url": "stills/5acafb1f84e2d485.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/still-film-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/still-film-qa/"
+    },
+    "https://tickets.paristheaternyc.com/order/showtimes/2001-2995/seats": {
+      "url": "stills/aee9a669643fb976.jpg",
+      "sourceUrl": "https://netflixstrapicentralcms.blob.core.windows.net/uploads/Letty_Lynton_STILL_d229f38323.png",
+      "sourcePage": "https://tickets.paristheaternyc.com/order/showtimes/2001-2995/seats"
+    },
+    "https://tickets.paristheaternyc.com/order/showtimes/2001-2998/seats": {
+      "url": "stills/9478f377a8df3afb.jpg",
+      "sourceUrl": "https://netflixstrapicentralcms.blob.core.windows.net/uploads/A_Place_in_the_Sun_STILL_alt_a5f826f546.jpeg",
+      "sourcePage": "https://tickets.paristheaternyc.com/order/showtimes/2001-2998/seats"
+    },
+    "https://tickets.paristheaternyc.com/order/showtimes/2001-2999/seats": {
+      "url": "stills/a12a6e91cb411b4d.jpg",
+      "sourceUrl": "https://netflixstrapicentralcms.blob.core.windows.net/uploads/W_Ild_River_STILL_alt_aeec0af39d.jpg",
+      "sourcePage": "https://tickets.paristheaternyc.com/order/showtimes/2001-2999/seats"
+    },
+    "https://filmforum.org/film/gardens-of-stone-coppola": {
+      "url": "stills/2193590befe8f3db.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/GARDENS_OF_STONE_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/gardens-of-stone-coppola"
+    },
+    "https://filmforum.org/film/apocalypse-now-1979-roadshow-version-coppola": {
+      "url": "stills/597071bf20f2b085.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/APOCALYPSE_NOW_thumbnail_1.png",
+      "sourcePage": "https://filmforum.org/film/apocalypse-now-1979-roadshow-version-coppola"
+    },
+    "https://filmforum.org/film/btwixt-now-and-sunrise-coppola": {
+      "url": "stills/b792355c7adac15e.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/BTWIXT_NOW_AND_SUNRISE_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/btwixt-now-and-sunrise-coppola"
+    },
+    "https://filmforum.org/film/one-from-the-heart-reprise-coppola": {
+      "url": "stills/0500cef54ad05a64.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/ONE_FROM_THE_HEART_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/one-from-the-heart-reprise-coppola"
+    },
+    "https://filmforum.org/film/barbara-hammer-embodied-histories": {
+      "url": "stills/465b51c5beb76535.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/HAMMER_SHORTS_EMBODIED_HISTORIES_STILL_POINT_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/barbara-hammer-embodied-histories"
+    },
+    "https://filmforum.org/film/the-conversation-coppola": {
+      "url": "stills/33d988f324a75e35.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/the-conversation-thumb.jpg",
+      "sourcePage": "https://filmforum.org/film/the-conversation-coppola"
+    },
+    "https://filmforum.org/film/late-fame": {
+      "url": "stills/d8b6c7243fed1741.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/Key_Art_Still_V2_thumb.jpg",
+      "sourcePage": "https://filmforum.org/film/late-fame"
+    },
+    "https://filmforum.org/film/youre-a-big-boy-now-coppola": {
+      "url": "stills/2243905cc9ced998.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/YOURE_A_BIG_BOY_NOW_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/youre-a-big-boy-now-coppola"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61904": {
+      "url": "stills/2c43339cea9af8a2.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Arsenal_1929.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61904"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61913": {
+      "url": "stills/c67eccb494913bb0.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Dreyer-Ordet.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61913"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61914": {
+      "url": "stills/1ba4629f2f9cb2e0.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Gertrud-2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61914"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61896": {
+      "url": "stills/e4c3be7b017ce74d.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Deux_fois_4.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61896"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61965": {
+      "url": "stills/1b2f0c2a82a1145f.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Demolition_sniadecki_2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61965"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61966": {
+      "url": "stills/1b2f0c2a82a1145f.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Demolition_sniadecki_2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61966"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61903": {
+      "url": "stills/99ae60184977b718.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Zvenigora+(1927)+Dovzhenko.png",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61903"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61863": {
+      "url": "stills/76ebc5741169d63f.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/ToLoveHonor-Obey_kitchen.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61863"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61873": {
+      "url": "stills/9abbd3c0f1258d73.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/WHO_KILLED_VINCENT_CHIN_1.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61873"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61910": {
+      "url": "stills/a9660d2655245181.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/dayofwrath5.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61910"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61874": {
+      "url": "stills/9abbd3c0f1258d73.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/WHO_KILLED_VINCENT_CHIN_1.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61874"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61911": {
+      "url": "stills/a9660d2655245181.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/dayofwrath5.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61911"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61912": {
+      "url": "stills/a9660d2655245181.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/dayofwrath5.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61912"
+    },
+    "https://www.roxycinemanewyork.com/screenings/dreams-in-nightmares/": {
+      "url": "stills/4f36c5877a7e930c.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/03/dreams-in-nightmares-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/dreams-in-nightmares/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/crash-35mm-2/": {
+      "url": "stills/ccdee514df34f18b.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2024/01/crash-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/crash-35mm-2/"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61906": {
+      "url": "stills/2b5172b01a990f6e.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/poster.jpeg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61906"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61907": {
+      "url": "stills/cfef742c772f9c6d.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/michael-slide-3.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61907"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61908": {
+      "url": "stills/431a695eeb0b08ba.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/joan1.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61908"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61909": {
+      "url": "stills/f19c98387acde512.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/vampyr2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61909"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61983": {
+      "url": "stills/d2fd3efddf36caa7.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/slow-glass-01.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61983"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-62140": {
+      "url": "stills/59bb8db5620c125b.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/killing_of_a_chinese_bookie_4.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-62140"
+    },
+    "https://www.roxycinemanewyork.com/screenings/night-of-the-vamp-friars-35mm/": {
+      "url": "stills/4d88ee84b2b41044.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/VF-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/night-of-the-vamp-friars-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-lake-house-35mm-2006-movies/": {
+      "url": "stills/88255b074ffd0009.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/07/Lakehouse-final-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-lake-house-35mm-2006-movies/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/dog-movie-puppygirl-qa/": {
+      "url": "stills/d039c035f7f9abf1.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Puppygirl-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/dog-movie-puppygirl-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/drinking-and-driving-qa/": {
+      "url": "stills/36476e2c6e8f1ed2.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Drinking-and-Driving-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/drinking-and-driving-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/viva-las-vegas-35mm-learning-from-learning-from-las-vegas/": {
+      "url": "stills/1f1e81434f8eab41.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Viva-Las-Vegas-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/viva-las-vegas-35mm-learning-from-learning-from-las-vegas/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/drinking-and-driving/": {
+      "url": "stills/36476e2c6e8f1ed2.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/Drinking-and-Driving-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/drinking-and-driving/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/whoes-watching-qa/": {
+      "url": "stills/6cbe4125b83c4687.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/WW1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/whoes-watching-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/matador-bolero-2-2/": {
+      "url": "stills/e1ab88f4857e6b2c.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/04/Matador-Bolero-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/matador-bolero-2-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/a-rimbaud-qa/": {
+      "url": "stills/6c0e005ef8eba9bb.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/04/A-RIMBAUD-still-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/a-rimbaud-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/common-carrier/": {
+      "url": "stills/334717e73efe0b7c.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/common-carrier-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/common-carrier/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/another-day-in-paradise-35mm/": {
+      "url": "stills/6a6cc7b693995702.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/another-day-in-paradise-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/another-day-in-paradise-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/hells-highway-the-true-story-of-highway-safety-films/": {
+      "url": "stills/1050b7c68e064ddc.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/hells-highway-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/hells-highway-the-true-story-of-highway-safety-films/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/her-will-be-done-qa/": {
+      "url": "stills/67864b008e921b5a.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/her-will-be-done-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/her-will-be-done-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/fat-girl-35mm/": {
+      "url": "stills/7c3797b491a5ba68.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/fat-girl-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/fat-girl-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/situations-qa/": {
+      "url": "stills/86fc662ad473bfff.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/situations-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/situations-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/day-night-day-night-35mm/": {
+      "url": "stills/4c4cab333eca9661.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/day-night-day-night-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/day-night-day-night-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/concessions-35mm-qa/": {
+      "url": "stills/6c858a7308d4ea36.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/concessions-1500-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/concessions-35mm-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/all-the-mornings-of-the-world-instruments-of-desire/": {
+      "url": "stills/67eba255d88e8884.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/matin-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/all-the-mornings-of-the-world-instruments-of-desire/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/on-a-string-qa/": {
+      "url": "stills/adca0442a0e5db69.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/on-a-string-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/on-a-string-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/prison-who-are-you-dorothy-dean-book-launch-and-qa/": {
+      "url": "stills/c4f6402a26996c56.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/prison-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/prison-who-are-you-dorothy-dean-book-launch-and-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-red-violin-live-performance/": {
+      "url": "stills/1716f0be488df363.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/the-red-violin-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-red-violin-live-performance/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/blade-35mm/": {
+      "url": "stills/00f2c8a952cd3ed7.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/blade-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/blade-35mm/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/titane-sex-death-cars/": {
+      "url": "stills/7e59e8ff65f9831a.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/08/titane-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/titane-sex-death-cars/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/sex-is-comedy/": {
+      "url": "stills/a7a6af0dde0165a6.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/sex-is-comedy-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/sex-is-comedy/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/kaboom/": {
+      "url": "stills/c03908b2e63ecf3e.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/kaboom-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/kaboom/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/cinema-tehran-presents-chicken-with-plums/": {
+      "url": "stills/ac8111c1d9556f69.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/chicken-1500.png",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/cinema-tehran-presents-chicken-with-plums/"
+    },
+    "https://www.ifccenter.com/films/mysterious-skin/": {
+      "url": "stills/d0e93f2334b0b9a5.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2022/02/mysteriousskin_1280x720.png",
+      "sourcePage": "https://www.ifccenter.com/films/mysterious-skin/"
+    },
+    "https://www.ifccenter.com/films/heathers/": {
+      "url": "stills/8ebc5927623d47e4.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/HEATHERSFINAL.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/heathers/"
+    },
+    "https://www.ifccenter.com/films/wild-inside/": {
+      "url": "stills/a3944af686ad874f.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/05/wildinside.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/wild-inside/"
+    },
+    "https://www.ifccenter.com/films/union-county/": {
+      "url": "stills/f87261770349e81c.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/07/unioncojpg-3.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/union-county/"
+    },
+    "https://www.ifccenter.com/films/the-incomer/": {
+      "url": "stills/fe95745ed7829675.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/incomer-NEW.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-incomer/"
+    },
+    "https://quadcinema.com/film/boorman-and-the-devil/": {
+      "url": "stills/6020259d0ae2c412.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/07/boorman_and_the_devil-H-2025-640x360.jpg",
+      "sourcePage": "https://quadcinema.com/film/boorman-and-the-devil/"
+    },
+    "https://quadcinema.com/film/franz/": {
+      "url": "stills/1ab9a3020106f239.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2025/11/franz2-640x396.png",
+      "sourcePage": "https://quadcinema.com/film/franz/"
+    },
+    "https://quadcinema.com/film/a-sad-and-beautiful-world/": {
+      "url": "stills/f422d7a7b1c8e7ef.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/06/sad1-640x360.jpg",
+      "sourcePage": "https://quadcinema.com/film/a-sad-and-beautiful-world/"
+    },
+    "https://quadcinema.com/film/black-zombie/": {
+      "url": "stills/51cc478648adf0c6.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/BZ-STL46-2-640x360.jpg",
+      "sourcePage": "https://quadcinema.com/film/black-zombie/"
+    },
+    "https://quadcinema.com/film/on-a-string/": {
+      "url": "stills/2a028efb7f414f65.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/07/on1-640x346.jpg",
+      "sourcePage": "https://quadcinema.com/film/on-a-string/"
+    },
+    "https://tickets.paristheaternyc.com/order/showtimes/2001-2968/seats": {
+      "url": "stills/c8564abbd7b81518.jpg",
+      "sourceUrl": "https://netflixstrapicentralcms.blob.core.windows.net/uploads/White_Nights_STILL_2_c9f3d79300.jpg",
+      "sourcePage": "https://tickets.paristheaternyc.com/order/showtimes/2001-2968/seats"
+    },
+    "https://www.ifccenter.com/films/free-lyric/": {
+      "url": "stills/ca971da4e6043912.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/freelyric-32.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/free-lyric/"
+    },
+    "https://www.ifccenter.com/films/union-county-open-captioning/": {
+      "url": "stills/ff721310fedf1974.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/unioncountyocap-7.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/union-county-open-captioning/"
+    },
+    "https://www.ifccenter.com/films/the-sun-never-sets-open-captioning/": {
+      "url": "stills/834acce6bd83ae65.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/thesunneversetsstill-11.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-sun-never-sets-open-captioning/"
+    },
+    "https://www.ifccenter.com/films/who-moves-america-2/": {
+      "url": "stills/5be766256a38830e.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/whomovesamerica.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/who-moves-america-2/"
+    },
+    "https://www.bam.org/film/2026/coyote-vs-acme": {
+      "url": "stills/9cba12c9a60e3946.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0826/coyote-vs-acme.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/coyote-vs-acme"
+    },
+    "https://www.bam.org/film/2026/the-odyssey": {
+      "url": "stills/57eed5e766d13a02.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0726/the-odyssey.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/the-odyssey"
+    },
+    "https://www.bam.org/film/2026/teenage-sex-and-death": {
+      "url": "stills/7e1641c0877fbb28.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0826/campmiasma.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/teenage-sex-and-death"
+    },
+    "https://www.bam.org/film/2026/the-invite": {
+      "url": "stills/104e98b6824adb4c.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0726/the-invite.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/the-invite"
+    },
+    "https://www.bam.org/film/2026/it-ends": {
+      "url": "stills/70043d59084b508f.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0826/it-ends.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/it-ends"
+    },
+    "https://quadcinema.com/film/the-work-in-progress/": {
+      "url": "stills/5acc541ea7877dd9.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/work2-640x360.jpg",
+      "sourcePage": "https://quadcinema.com/film/the-work-in-progress/"
+    },
+    "https://quadcinema.com/film/virginia-woolfs-night-day/": {
+      "url": "stills/7f8e34d4c50f3dc1.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/night6-1-640x426.jpg",
+      "sourcePage": "https://quadcinema.com/film/virginia-woolfs-night-day/"
+    },
+    "https://quadcinema.com/film/brailled-it/": {
+      "url": "stills/371235c0a0f8d7c0.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/Still-2025-12-15-120544_1.1a-640x360.jpg",
+      "sourcePage": "https://quadcinema.com/film/brailled-it/"
+    },
+    "https://quadcinema.com/film/the-virgin-suicides/": {
+      "url": "stills/6f23477078179510.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/virgin3-640x353.jpg",
+      "sourcePage": "https://quadcinema.com/film/the-virgin-suicides/"
+    },
+    "https://quadcinema.com/film/night-of-the-living-dead/": {
+      "url": "stills/8d596947d78c47d1.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/night6-640x480.jpg",
+      "sourcePage": "https://quadcinema.com/film/night-of-the-living-dead/"
+    },
+    "https://www.bam.org/film/2026/tony": {
+      "url": "stills/89f26902f39fae14.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0826/tony-still.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/tony"
+    },
+    "https://www.bam.org/film/2026/powwow-people": {
+      "url": "stills/233d1b92ad717c09.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0826/powwow-people.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/powwow-people"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-dust-of-angels": {
+      "url": "stills/429bb17441311140.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/dust-of-angels_web.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-dust-of-angels"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-hometown-boy": {
+      "url": "stills/1ecbc5d242ebbb7a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/hometown-boy.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-hometown-boy"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-pink-floyd": {
+      "url": "stills/4012cb18106270c4.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/pink-floyd-the-wall.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-pink-floyd"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-millennium-mambo": {
+      "url": "stills/94ad443d0237a587.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/milennium-mambo.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-millennium-mambo"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides": {
+      "url": "stills/c295625bb4726f88.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/caught-by-the-tides.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-jinpa": {
+      "url": "stills/c71dcae426304e80.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/jinpa.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-jinpa"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-city-of-jade": {
+      "url": "stills/092d4eca1f28b747.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/city-of-jade.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-city-of-jade"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-kaili-blues": {
+      "url": "stills/1ee5cc07f75e882e.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/kaili-blues.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-kaili-blues"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-kuroneko": {
+      "url": "stills/61b810ecb7feabde.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/kuroneko.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-kuroneko"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-the-cassandra-cat": {
+      "url": "stills/153829c92b32c753.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/the-cassandra-cat.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-the-cassandra-cat"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-the-cat-creeps": {
+      "url": "stills/b543e918753ed014.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/the-cat-creeps.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-the-cat-creeps"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-cat-people": {
+      "url": "stills/9b5e7ce8152e6edc.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/cat-people.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-cat-people"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-hausu": {
+      "url": "stills/fcf7097c40bf6fb2.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/hausu.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-hausu"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-kikis": {
+      "url": "stills/c9cf67942c208ae6.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/kikis-delivery-service.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-kikis"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-bell-book": {
+      "url": "stills/2df07e9f6c89a3d3.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/bellbookandcandle-2.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-bell-book"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-the-black-cat": {
+      "url": "stills/9b6ded0703d3cce1.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/the-black-cat-2.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-the-black-cat"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-the-assassin": {
+      "url": "stills/80e7591d580d8018.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/the-assassin.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-the-assassin"
+    },
+    "https://www.bam.org/film/2026/a-pure-person-the-world": {
+      "url": "stills/8a2a96f868d0fbad.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/a-pure-person-the-sonic-landscape-of-lim-giong/the-world.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/a-pure-person-the-world"
+    },
+    "https://www.bam.org/film/2026/sweat2-amazing-grace": {
+      "url": "stills/8a5080b6d2deb20a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/amazing-grace.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-amazing-grace"
+    },
+    "https://www.bam.org/film/2026/sweat2-atlantics": {
+      "url": "stills/969513b8888a27b3.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/atlantics.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-atlantics"
+    },
+    "https://www.bam.org/film/2026/sweat2-babylon": {
+      "url": "stills/2c9363134504e3e3.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/babylon.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-babylon"
+    },
+    "https://www.bam.org/film/2026/sweat2-bacurau": {
+      "url": "stills/2a56809d27f224dd.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/bacurau.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-bacurau"
+    },
+    "https://www.bam.org/film/2026/hope": {
+      "url": "stills/d9d78798a9b5ab03.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/hope.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/hope"
+    },
+    "https://www.bam.org/film/2026/ougie-pak": {
+      "url": "stills/b4cfd072a767713a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/red-card-2.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/ougie-pak"
+    },
+    "https://www.bam.org/film/2026/sweat2-body-double": {
+      "url": "stills/3498a33d1b590c4e.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/body-double.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-body-double"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-the-cat-from-outerspace": {
+      "url": "stills/4f3d8a1038305ae4.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/the-cat-from-outerspace-2.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-the-cat-from-outerspace"
+    },
+    "https://www.bam.org/film/2026/fantastical-felines-the-cat": {
+      "url": "stills/af9114bebbd0b69f.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/fantastical-felines/the-cat.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/fantastical-felines-the-cat"
+    },
+    "https://www.bam.org/film/2026/garod-collective": {
+      "url": "stills/b8a7230229cfc979.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/garod.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/garod-collective"
+    },
+    "https://www.bam.org/film/2026/sweat2-tongues-untied": {
+      "url": "stills/c1893f11499a18d1.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/tongues-untied.png",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-tongues-untied"
+    },
+    "https://www.bam.org/film/2026/sweat2-starstruck": {
+      "url": "stills/28f8dfea5b9b6f3c.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/starstruck.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-starstruck"
+    },
+    "https://www.bam.org/film/2026/sweat2-mississippi-masala": {
+      "url": "stills/56d71bf104227555.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/mississippi-masala.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-mississippi-masala"
+    },
+    "https://www.bam.org/film/2026/sweat2-islands": {
+      "url": "stills/b309c7d80fbd874f.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/the-island-of-dr.-moreau.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-islands"
+    },
+    "https://www.bam.org/film/2026/sweat2-wild-things": {
+      "url": "stills/1c996a2305705eec.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/wild-things.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-wild-things"
+    },
+    "https://www.bam.org/film/2026/sweat2-onibaba": {
+      "url": "stills/4696274ffcb9f571.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/sweat-2/onibaba.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/sweat2-onibaba"
+    },
+    "https://www.bam.org/film/2026/gwb-film-amreeka": {
+      "url": "stills/090241e825f05e9a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/amreeka.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-amreeka"
+    },
+    "https://www.bam.org/film/2026/gwb-film-talladega-nights": {
+      "url": "stills/ef8cd2ddf5df03a9.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/ballad-of-ricky-bobby.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-talladega-nights"
+    },
+    "https://www.bam.org/film/2026/gwb-film-burn-after-reading": {
+      "url": "stills/e6136d1bb6f4fd9d.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/burn-after-reading.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-burn-after-reading"
+    },
+    "https://www.bam.org/film/2026/gwb-film-deja-vu": {
+      "url": "stills/064f855f25780606.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/deja-vu.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-deja-vu"
+    },
+    "https://www.bam.org/film/2026/gwb-film-jesus-camp": {
+      "url": "stills/0c458db9e6c7f83a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/jesus-camp.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-jesus-camp"
+    },
+    "https://www.bam.org/film/2026/gwb-film-the-dark-knight": {
+      "url": "stills/6cb9be66c7794336.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/the-dark-knight.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-the-dark-knight"
+    },
+    "https://www.bam.org/film/2026/gwb-film-land-of-the-dead": {
+      "url": "stills/ea64e54b079c710f.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/land-of-the-dead.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-land-of-the-dead"
+    },
+    "https://www.bam.org/film/2026/gwb-film-redacted": {
+      "url": "stills/6ade4d7c52b68a17.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/redacted.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-redacted"
+    },
+    "https://www.bam.org/film/2026/gwb-film-war-of-the-worlds": {
+      "url": "stills/dc5f3c7dd9fbfd4a.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/war-of-the-worlds.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-war-of-the-worlds"
+    },
+    "https://www.bam.org/film/2026/gwb-film-my-country": {
+      "url": "stills/3e7993223ab581be.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/the-american-cinema-under-george-w.-bush/my-country-my-country.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-my-country"
+    },
+    "https://www.bam.org/film/2026/gwb-film-25th-hour": {
+      "url": "stills/6c94f1c70e6e5ad3.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/9_cinema-2026/0725/nyc-2000s/25th-hour-2002-promo-still.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/gwb-film-25th-hour"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61930": {
+      "url": "stills/389a5dcef829e105.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Merritt_LonesomeCowboy_1 copy 2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61930"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61933": {
+      "url": "stills/f74fda3f6fe65c14.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Merritt_APART copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61933"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61931": {
+      "url": "stills/389a5dcef829e105.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Merritt_LonesomeCowboy_1 copy 2.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61931"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61937": {
+      "url": "stills/234e5c021b6a0f23.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/What_Godmilow_Taught_IMG Idea responsability low.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61937"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61865": {
+      "url": "stills/c2805fc15ca5e486.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/NAMIBIA.Still016 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61865"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61866": {
+      "url": "stills/c2805fc15ca5e486.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/NAMIBIA.Still016 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61866"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61959": {
+      "url": "stills/49a90f7536942b70.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/NoOtherLand copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61959"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61950": {
+      "url": "stills/2b66a26e464ed403.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/When Blue_Reeves_birds fly in white.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61950"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61968": {
+      "url": "stills/fd9b9e7d02fe6149.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/StillLife5 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61968"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61971": {
+      "url": "stills/37f1ec469425c2f9.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Time Stepping copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61971"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61990": {
+      "url": "stills/50be36cf96fd7428.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Oceania_03 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61990"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61960": {
+      "url": "stills/49a90f7536942b70.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/NoOtherLand copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61960"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61992": {
+      "url": "stills/e846e85e3fa63888.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Still 3_AOH copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61992"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61969": {
+      "url": "stills/fd9b9e7d02fe6149.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/StillLife5 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61969"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61973": {
+      "url": "stills/b12b1fe08c6a662c.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screenshot 2026-07-30 at 11.03.17 AM copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61973"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61878": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61878"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61882": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61882"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61883": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61883"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61886": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61886"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61888": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61888"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61890": {
+      "url": "stills/bbf765d529ce8405.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Screamplay - 2 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61890"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61857": {
+      "url": "stills/270895d150bca159.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/teach-our-children-film-preservation-hd.00_02_35_09.Still003 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61857"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61860": {
+      "url": "stills/f537c6d2c9ff6d1b.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/fei-tien.00_01_37_26.Still001 Large.jpeg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61860"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61858": {
+      "url": "stills/270895d150bca159.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/teach-our-children-film-preservation-hd.00_02_35_09.Still003 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61858"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61861": {
+      "url": "stills/f537c6d2c9ff6d1b.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/fei-tien.00_01_37_26.Still001 Large.jpeg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61861"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61957": {
+      "url": "stills/a7cc6ca1dfcd7493.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/matta-clark_splitting-HD_01-300dpi copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61957"
+    },
+    "https://filmforum.org/film/barbara-forever": {
+      "url": "stills/983888189f7988a7.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/BARBARA_FOREVER_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/barbara-forever"
+    },
+    "https://filmforum.org/film/apocalypse-now-final-cut-coppola": {
+      "url": "stills/e043cbf315935e56.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/APOCALYPSE_NOW_slideshow_1_1.png",
+      "sourcePage": "https://filmforum.org/film/apocalypse-now-final-cut-coppola"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61943": {
+      "url": "stills/7887f3645ea240d4.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/LITTLE DEATHS STILL copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61943"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61902": {
+      "url": "stills/3d3f1c763011a1d6.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/27849id_012 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61902"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61955": {
+      "url": "stills/3c5e52b1246d81a9.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/EN CONSTRUCCION 3.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61955"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61946": {
+      "url": "stills/6270f3bcc9e7eeef.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Gloria_w George and Martha teens copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61946"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61947": {
+      "url": "stills/6270f3bcc9e7eeef.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Gloria_w George and Martha teens copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61947"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61962": {
+      "url": "stills/ba7896ba2858db23.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/20820id_218 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61962"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61952": {
+      "url": "stills/8c7ab287ab742384.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Fear of_Reeves_cu red door_12 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61952"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61948": {
+      "url": "stills/6270f3bcc9e7eeef.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Gloria_w George and Martha teens copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61948"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61963": {
+      "url": "stills/ba7896ba2858db23.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/20820id_218 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61963"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61927": {
+      "url": "stills/830ddf6b2e7e4e32.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Embracable You_Toney Merritt_1979_Still002 copy.png",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61927"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61928": {
+      "url": "stills/830ddf6b2e7e4e32.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/Embracable You_Toney Merritt_1979_Still002 copy.png",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61928"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61977": {
+      "url": "stills/3ca354ae7b3c5df2.jpg",
+      "sourceUrl": "https://anthologyfilmarchives.org/uploads/LaCorazonada.1 copy.jpg",
+      "sourcePage": "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61977"
+    },
+    "https://filmforum.org/film/filipinana": {
+      "url": "stills/00cb22f1ed690268.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/FILIPINANA_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/filipinana"
+    },
+    "https://filmforum.org/film/hearts-of-darkness-a-filmmakers-apocalypse-coppola": {
+      "url": "stills/906acdbf08ac1340.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/HEARTS_OF_DARKNESS_slideshow_2.jpg",
+      "sourcePage": "https://filmforum.org/film/hearts-of-darkness-a-filmmakers-apocalypse-coppola"
+    },
+    "https://filmforum.org/film/barbara-hammer-love-is-where-you-find-it": {
+      "url": "stills/7f99dd4abeb82725.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/HAMMER_SHORTS_LOVE_IS_WHERE_YOU_FIND_IT_DYKETACTICS_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/barbara-hammer-love-is-where-you-find-it"
+    },
+    "https://filmforum.org/film/bram-stokers-dracula-coppola": {
+      "url": "stills/4185326aff0690fd.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/BRAM_STOKERS_DRACULA_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/bram-stokers-dracula-coppola"
+    },
+    "https://filmforum.org/film/peggy-sue-got-married-coppola": {
+      "url": "stills/a7f152a6c8dc8e22.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/PEGGY_SUE_GOT_MARRIED_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/peggy-sue-got-married-coppola"
+    },
+    "https://filmforum.org/film/rumble-fish-coppola": {
+      "url": "stills/7caecc933e1d5351.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/RUMBLE_FISH_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/rumble-fish-coppola"
+    },
+    "https://filmforum.org/film/east-side-west-side-nyc-in-transit": {
+      "url": "stills/b638da7d55a08701.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/EAST_SIDE_WEST_SIDE_NYC_IN_TRANSIT_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/east-side-west-side-nyc-in-transit"
+    },
+    "https://filmforum.org/film/tetro-coppola": {
+      "url": "stills/9b142cd4c263a21d.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/TETRO_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/tetro-coppola"
+    },
+    "https://filmforum.org/film/megalopolis-coppola": {
+      "url": "stills/c29af65022118786.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/MEGALOPOLIS_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/megalopolis-coppola"
+    },
+    "https://filmforum.org/film/dementia-13-coppola": {
+      "url": "stills/5af11b99dc319a8f.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/DEMENTIA_13_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/dementia-13-coppola"
+    },
+    "https://filmforum.org/film/youth-without-youth-coppola": {
+      "url": "stills/d39cc6317e30c893.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/YOUTH_WITHOUT_YOUTH_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/youth-without-youth-coppola"
+    },
+    "https://filmforum.org/film/the-rainmaker-coppola": {
+      "url": "stills/6f85c40d7ef6da4d.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/THE_RAINMAKER_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/the-rainmaker-coppola"
+    },
+    "https://filmforum.org/film/the-godfather-coppola": {
+      "url": "stills/4dccd4c59f3d47ee.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/THE_GODFATHER_cazale_slideshow_2.png",
+      "sourcePage": "https://filmforum.org/film/the-godfather-coppola"
+    },
+    "https://filmforum.org/film/the-godfather-part-ii-coppola": {
+      "url": "stills/aafe77a4105fd4c9.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/THE_GODFATHER_PART_II_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/the-godfather-part-ii-coppola"
+    },
+    "https://filmforum.org/film/tucker-the-man-and-his-dream-coppola": {
+      "url": "stills/29f7008023bde400.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/TUCKER_THE_MAN_AND_HIS_DREAM_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/tucker-the-man-and-his-dream-coppola"
+    },
+    "https://filmforum.org/film/the-cotton-club-coppola": {
+      "url": "stills/b2cd0d2693566837.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/THE_COTTON_CLUB_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/the-cotton-club-coppola"
+    },
+    "https://filmforum.org/film/the-rain-people-coppola": {
+      "url": "stills/f52d1f654da9254d.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/_1000w/THE_RAIN_PEOPLE_slideshow.png",
+      "sourcePage": "https://filmforum.org/film/the-rain-people-coppola"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61905": {
+      "url": "stills/80be9b03e389fa68.jpg",
+      "sourceUrl": "https://saltonline.org/media/files/zemlya_1930.jpg",
+      "sourcePage": "https://saltonline.org/en/1797/sounds-of-cinema-zemlya-earth-featuring-ekin-fil"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61941": {
+      "url": "stills/ff8f2c2090f7cb8f.jpg",
+      "sourceUrl": "https://www.arsenal-berlin.de/assets/_processed_/7/7/csm_Roy-Cohn_Jack-Smith__card.png_for-web_6316d417d6.png",
+      "sourcePage": "https://www.arsenal-berlin.de/en/cinema/film-screening/5184/"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61900": {
+      "url": "stills/a2ef5d670691c084.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/52afa15ce4b042c7f0089b22/1631561082698-87RT72ROSZQCTRN0WPJK/Ho%CC%82telNewYork.jpg",
+      "sourcePage": "https://www.gartenbergmedia.com/gme-streamline-blog/2020/9/12/hotel-new-york"
+    },
+    "https://www.lightindustry.org/menken-walsh": {
+      "url": "stills/dcb2dcc8001a9a87.jpg",
+      "sourceUrl": "https://i0.wp.com/eisenhowerlibrary.org/wp-content/uploads/2017/03/Gentleman-Jim-890x461.jpg",
+      "sourcePage": "https://eisenhowerlibrary.org/classic-film-series-gentleman-jim/"
+    },
+    "https://www.lightindustry.org/haugsgjerd": {
+      "url": "stills/154c35aebb5c8f02.jpg",
+      "sourceUrl": "https://i.vimeocdn.com/video/1129244992-2c28d18b57e5181e260f3b3ccddd20b1040b9a401e2d5d237a3858b29bc91e96-d_2400?region=us",
+      "sourcePage": "https://vimeo.com/545429428"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61898": {
+      "url": "stills/5afbbf073090ac28.jpg",
+      "sourceUrl": "https://cdn-ec-static.garagemca.org/storage/event/1/4/1474/preview_preview_image-8ceb14e9-2caf-4ef8-a6b0-ca87b7f7c0ec.jpg",
+      "sourcePage": "https://garagemca.org/en/event/garage-screen-eric-rohmer"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61985": {
+      "url": "stills/2e7276b354ad750d.jpg",
+      "sourceUrl": "file:///workspace/scratch/63b4c8d8bf63/sourced-stills/north.jpg",
+      "sourcePage": "https://www.docnyc.net/film/true-north/"
+    },
+    "https://anthologyfilmarchives.org/film_screenings/calendar?view=list#showing-61876": {
+      "url": "stills/649a04f678ff0bac.jpg",
+      "sourceUrl": "file:///workspace/scratch/63b4c8d8bf63/sourced-stills/shanghai-full.jpg",
+      "sourcePage": "https://www.talkhouse.com/on-ha-ha-shanghai-and-the-unflinching-honesty-of-christine-choy/"
+    }
+  },
+  "demoSources": {
+    "Persona": "https://www.ifccenter.com/films/persona/",
+    "Possession": "https://metrograph.com/film/?vista_film_id=9999004056",
+    "The Conformist": "https://kinorotterdam.nl/films/il-conformista-1970/"
+  }
+}

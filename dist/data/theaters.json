@@ -1,0 +1,86 @@
+[
+  {
+    "id": "metrograph",
+    "name": "METROGRAPH",
+    "address": "7 Ludlow St, New York, NY 10002",
+    "sourceUrl": "https://metrograph.com/film/"
+  },
+  {
+    "id": "film-forum",
+    "name": "FILM FORUM",
+    "address": "209 W Houston St, New York, NY 10014",
+    "sourceUrl": "https://filmforum.org/events"
+  },
+  {
+    "id": "ifc",
+    "name": "IFC CENTER",
+    "address": "323 6th Ave, New York, NY 10014",
+    "sourceUrl": "https://www.ifccenter.com/"
+  },
+  {
+    "id": "lincoln",
+    "name": "LINCOLN CNTR",
+    "address": "144 W 65th St, New York, NY 10023",
+    "sourceUrl": "https://www.filmlinc.org/calendar/"
+  },
+  {
+    "id": "roxy",
+    "name": "ROXY CINEMA",
+    "address": "2 Avenue of the Americas, New York, NY 10013",
+    "sourceUrl": "https://www.roxycinemanewyork.com/now-showing/"
+  },
+  {
+    "id": "bam",
+    "name": "BAM",
+    "address": "30 Lafayette Ave, Brooklyn, NY 11217",
+    "sourceUrl": "https://www.bam.org/film"
+  },
+  {
+    "id": "moma",
+    "name": "MOMA",
+    "address": "11 W 53rd St, New York, NY 10019",
+    "sourceUrl": "https://www.moma.org/calendar/film"
+  },
+  {
+    "id": "angelika",
+    "name": "ANGELIKA",
+    "address": "18 W Houston St, New York, NY 10012",
+    "sourceUrl": "https://www.angelikafilmcenter.com/nyc"
+  },
+  {
+    "id": "quad",
+    "name": "QUAD",
+    "address": "34 W 13th St, New York, NY 10011",
+    "sourceUrl": "https://quadcinema.com/"
+  },
+  {
+    "id": "paris",
+    "name": "PARIS THEATER",
+    "address": "4 W 58th St, New York, NY 10019",
+    "sourceUrl": "https://www.paristheaternyc.com/"
+  },
+  {
+    "id": "anthology",
+    "name": "ANTHOLOGY",
+    "address": "32 2nd Ave, New York, NY 10003",
+    "sourceUrl": "https://anthologyfilmarchives.org/film_screenings/calendar"
+  },
+  {
+    "id": "momi",
+    "name": "MOMI",
+    "address": "36-01 35th Ave, Astoria, NY 11106",
+    "sourceUrl": "https://movingimage.org/whats-on/screenings-and-series/"
+  },
+  {
+    "id": "spectacle",
+    "name": "SPECTACLE",
+    "address": "124 S 3rd St, Brooklyn, NY 11249",
+    "sourceUrl": "https://www.spectacletheater.com/"
+  },
+  {
+    "id": "light-industry",
+    "name": "LIGHT INDUSTRY",
+    "address": "361 Stagg St, Brooklyn, NY 11206",
+    "sourceUrl": "https://www.lightindustry.org/calendar/"
+  }
+]
