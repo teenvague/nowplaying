@@ -21,7 +21,7 @@
 .page-button:disabled:hover .arrow{background:transparent;color:var(--ink)}
 @media(max-width:800px){.date-navigation{width:65px}.page-button .vertical,.page-button.previous .vertical{font-size:15px;line-height:20px}}
 
-.other-theater{display:block;width:fit-content;margin:0 0 9px 27px;color:inherit;font:var(--body)/1.2 var(--sans);text-decoration:underline;text-underline-offset:3px}.other-theaters{padding-bottom:65px}
+
 .film-preview{position:fixed;z-index:1000;display:block;pointer-events:none;margin:0;border:0;background:var(--ink);color:var(--paper)}
 .film-preview[hidden]{display:none}
 .film-preview figcaption{padding:9px 12px 10px;font:16px/18px var(--mono);letter-spacing:.1px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}

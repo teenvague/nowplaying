@@ -179,9 +179,11 @@ def quad(v):
     s = soup(v['sourceUrl'], 'quad'); rows = []
     for item in s.select('.day-wrap .grid-item'):
         title = item.select_one('h4 a'); links = item.select('.showtimes-list a')
-        if not title or not links: continue
-        match = re.search(r'date=(\d{4}-\d{2}-\d{2})', links[0]['href'])
-        if match: rows.append(row(v['id'], text(title), match[1], [clock(text(a)) for a in links], title['href']))
+        # The list also carries non-time chips (e.g. a 35mm format badge); only parse real showtimes.
+        times = [a for a in links if re.search(r'\d{1,2}(?:[:.]\d{2})?\s*(?:AM|PM)\b', text(a), re.I)]
+        if not title or not times: continue
+        match = re.search(r'date=(\d{4}-\d{2}-\d{2})', times[0]['href'])
+        if match: rows.append(row(v['id'], text(title), match[1], [clock(text(a)) for a in times], title['href']))
     return enrich(rows, v['id'])
 
 def roxy(v):

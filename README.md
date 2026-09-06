@@ -16,7 +16,7 @@ Courier Prime is self-hosted. Helvetica Neue is requested as a locally installed
 
 `dist/data/screenings.json` contains the last collected snapshot, per-venue status, actual successful-fetch timestamps, official program URLs, and festivals. The scraper uses public HTML or the public endpoint used by each venue's site; it does not bypass access controls.
 
-Metrograph, Film Forum, IFC, Roxy, Quad, BAM, Anthology, and Light Industry are aggregated. Film at Lincoln Center, MoMA, Angelika, Paris, Museum of the Moving Image, and Spectacle appear as external links in OTHER THEATERS at the end of every day and are excluded from filters and refreshes. Shout-case film titles are normalized to title case. Locally cached film stills retain source attribution in film-images.json.
+Metrograph, Film Forum, IFC, Roxy, Quad, BAM, Anthology, and Light Industry are aggregated. Film at Lincoln Center, MoMA, Angelika, Paris, Museum of the Moving Image, and Spectacle are not aggregated and are excluded from filters, columns, and refreshes. Shout-case film titles are normalized to title case. Locally cached film stills retain source attribution in film-images.json.
 
 Only metadata actually present on a source is emitted. Some sources omit director, year, or format; those fields are absent, never guessed. Film Forum's unmarked clock convention is interpreted as daytime/evening cinema times: 10–11 AM, 12 noon, 1–9 PM. Explicit AM/PM overrides this convention. Paris special events may include a Q&A; the linked theater page provides the event details.
 
