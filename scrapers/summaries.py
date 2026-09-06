@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'dist/data/film-summaries.json'
 API = 'https://api.anthropic.com/v1/messages'
-MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-sonnet-4-5'
+MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-sonnet-5'
 BATCH = 12
 LINE = 30
 
