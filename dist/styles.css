@@ -48,6 +48,9 @@ footer h2,.page-button .vertical,.page-button.previous .vertical{font-size:var(-
 .film-preview figcaption span{display:block;white-space:nowrap;letter-spacing:inherit}
 /* Films with no authored summary hide the caption; this must outrank the rule above. */
 .film-preview figcaption[hidden]{display:none}
+/* 34 Courier characters fit the caption from 360px up. Below that the line
+   would clip, so the caption alone steps down a size to keep both lines whole. */
+@media(max-width:359px){.film-preview figcaption{font-size:13px;line-height:15px;height:30px}}
 @media(min-width:801px) and (max-width:1500px){:root{--courier-small:14px;--courier-leading:16px}}
 
 /* Trailing space at the end of the scroll: a flex container's own padding-inline-end

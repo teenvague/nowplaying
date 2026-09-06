@@ -18,7 +18,8 @@ BATCH = 12
 # Replies came back as a single thinking block with stop_reason max_tokens and no
 # text at all, so the budget has to cover the model's reasoning as well as the JSON.
 MAX_TOKENS = 16000
-LINE = 30
+LINE = 34
+MAX_CHARS = 2 * LINE   # two lines of Courier in the caption box
 
 BRIEF = (
     "You write one-line captions for a New York repertory cinema calendar. "
@@ -32,7 +33,8 @@ BRIEF = (
     "actual premise, omit the title rather than guessing or padding.\n\n"
     "For each film return ONE sentence that:\n"
     "- gives the premise, not a plot summary and not an assessment\n"
-    "- is at most 58 characters including spaces, and splits at a word boundary "
+    f"- is at most {MAX_CHARS} characters including spaces, and splits at a word "
+    "boundary "
     f"into two lines of at most {LINE} characters each\n"
     "- is present tense and opens on an indefinite article where it reads "
     "naturally (\"A poet crosses into the realm of death in pursuit of love.\")\n"
@@ -62,7 +64,7 @@ def acceptable(title, caption):
     caption = re.sub(r'\s+', ' ', (caption or '')).strip().strip('"\u201c\u201d')
     if not caption:
         return '', 'no_reply'
-    if len(caption) > 58:
+    if len(caption) > MAX_CHARS:
         return '', 'too_long_%d' % len(caption)
     if len(re.findall(r'[.!?]', caption)) > 1:
         return '', 'multiple_sentences'
