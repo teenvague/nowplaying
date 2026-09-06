@@ -1,5 +1,10 @@
 [
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": ""
+  },
+  {
     "title": "The Treasure of Bitch Islands",
     "reason": "no_reply",
     "candidate": ""
@@ -57,6 +62,11 @@
   {
     "title": "Farewell, Home Sweet Home",
     "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
     "candidate": ""
   },
   {
@@ -120,6 +130,11 @@
     "candidate": ""
   },
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": ""
+  },
+  {
     "title": "Iphigenia",
     "reason": "no_reply",
     "candidate": ""
@@ -180,6 +195,11 @@
     "candidate": ""
   },
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": ""
+  },
+  {
     "title": "Ryuichi Sakamoto: Coda",
     "reason": "no_reply",
     "candidate": ""
@@ -237,6 +257,11 @@
   {
     "title": "Small Change",
     "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
     "candidate": ""
   },
   {
