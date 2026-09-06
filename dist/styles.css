@@ -58,7 +58,10 @@ footer{max-height:none;overflow-y:hidden}
    --days is the number of day columns rendered per page; app.js reads it so that
    NEXT/PREVIOUS always advance by exactly one screenful. Below 801px the calendar
    becomes a one-day swipe and keeps rendering five. */
-:root{--days:5}
+:root{--days:5;--day-step:var(--days)}
+/* On mobile five columns are rendered for the swipe but the arrows
+   advance a single day, so tapping NEXT never skips one. */
+@media(max-width:800px){:root{--day-step:1}}
 @media(min-width:1150px) and (max-width:1399px){:root{--days:4}}
 @media(min-width:950px) and (max-width:1149px){:root{--days:3}}
 @media(min-width:801px) and (max-width:949px){:root{--days:2}}
