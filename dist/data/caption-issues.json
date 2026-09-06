@@ -5,36 +5,6 @@
     "candidate": ""
   },
   {
-    "title": "Falling Leaves",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Solaris",
-    "reason": "too_long_70",
-    "candidate": "A psychologist journeys to a space station\norbit by a sentient planet."
-  },
-  {
-    "title": "Pastorale",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "La Haine",
-    "reason": "too_long_75",
-    "candidate": "Three young men navigate a single day in\nParis's troubled housing projects."
-  },
-  {
-    "title": "Happy Together",
-    "reason": "will_not_split_in_two",
-    "candidate": "Two lovers confront the end of their\nrelationship in Buenos Aires."
-  },
-  {
-    "title": "Chasing Butterflies",
-    "reason": "too_long_77",
-    "candidate": "Two elderly women maintain aristocratic\nrituals in a decaying French chateau."
-  },
-  {
     "title": "Zidane: A 21st Century Portrait",
     "reason": "no_reply",
     "candidate": ""
@@ -50,24 +20,9 @@
     "candidate": ""
   },
   {
-    "title": "The Ninth Gate",
-    "reason": "too_long_71",
-    "candidate": "An antiquarian authenticates a rare\nbook allegedly summoning the Devil."
-  },
-  {
-    "title": "The Double",
-    "reason": "too_long_69",
-    "candidate": "A timid office worker confronts an\nidentical, confident doppelgänger."
-  },
-  {
     "title": "Tokyo Melody",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Electra, My Love",
-    "reason": "too_long_72",
-    "candidate": "A woman seeks vengeance for her\nfather's murder across Hungary's plains."
   },
   {
     "title": "Ryuichi Sakamoto: Diaries",
@@ -81,13 +36,8 @@
   },
   {
     "title": "Alien: Resurrection",
-    "reason": "too_long_71",
-    "candidate": "Scientists resurrect a xenomorph\nqueen aboard an orbiting space vessel."
-  },
-  {
-    "title": "Pushing Hands",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_85",
+    "candidate": "A cloned soldier awakens centuries later to\nface the creatures she was bred to fight."
   },
   {
     "title": "Jollof Films Presents: Faat Kiné",
@@ -101,28 +51,13 @@
   },
   {
     "title": "Story of Mother",
-    "reason": "will_not_split_in_two",
-    "candidate": "A young mother's infidelity threatens her\nfamily's fragile peace."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Fireflies Press Presents: Morvern Callar",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Midnight in Paris",
-    "reason": "will_not_split_in_two",
-    "candidate": "A writer travels back in time through\nthe streets of Paris at night."
-  },
-  {
-    "title": "Train to Busan",
-    "reason": "too_long_73",
-    "candidate": "A father and daughter find themselves\ntrapped on a zombie-infested train."
-  },
-  {
-    "title": "Amour",
-    "reason": "will_not_split_in_two",
-    "candidate": "An elderly couple confronts mortality\nand the bonds of devotion."
   },
   {
     "title": "Invisible Adversaries",
@@ -131,18 +66,8 @@
   },
   {
     "title": "The Wailing",
-    "reason": "too_long_70",
-    "candidate": "A police officer investigates a series of murders in a remote village."
-  },
-  {
-    "title": "Small Change",
-    "reason": "too_long_71",
-    "candidate": "Children experience the joys and perils of growing up in a French town."
-  },
-  {
-    "title": "High and Low",
-    "reason": "too_long_70",
-    "candidate": "A wealthy industrialist's son is kidnapped, testing his moral resolve."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Practice of Love",
@@ -151,8 +76,8 @@
   },
   {
     "title": "Nostos: The Return",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_72",
+    "candidate": "A filmmaker interprets Homer's Odyssey through\nimages rather than words."
   },
   {
     "title": "Valie Export Shorts Program",
@@ -170,8 +95,68 @@
     "candidate": ""
   },
   {
-    "title": "I Walked with a Zombie",
-    "reason": "too_long_77",
-    "candidate": "A nurse arrives on a Caribbean island to care for a planter's catatonic wife."
+    "title": "Onslaught",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Coyote vs. Acme",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The End of Oak Street",
+    "reason": "will_not_split_in_two",
+    "candidate": "A family must survive in their transformed and unrecognizable world."
+  },
+  {
+    "title": "Merrily We Go To Hell",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Gang Related",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Practical Magic 2",
+    "reason": "will_not_split_in_two",
+    "candidate": "Two sisters confront a curse threatening to destroy their family."
+  },
+  {
+    "title": "A Litany for Survival: The Life and Work of Audre Lorde",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Final Fantasy: The Spirits Within",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Childhood Delusions Film Festival",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The Best of Betty Boop",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Ghosts of Mars",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "NoBudge Live 52",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Thiiird",
+    "reason": "too_long_76",
+    "candidate": "A mechanic discovers he must fix his customers' lives as well as their cars."
   }
 ]
