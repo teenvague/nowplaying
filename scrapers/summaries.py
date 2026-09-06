@@ -11,9 +11,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'dist/data/film-summaries.json'
+ISSUES = ROOT / 'dist/data/caption-issues.json'
 API = 'https://api.anthropic.com/v1/messages'
 MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-sonnet-5'
 BATCH = 12
+MAX_TOKENS = 2048
 LINE = 30
 
 BRIEF = (
@@ -47,15 +49,24 @@ def fits(caption, limit=LINE):
                for i in range(1, len(words))) <= limit
 
 
+def key(title):
+    return re.sub(r'[^a-z0-9]', '', (title or '').casefold())
+
+
 def acceptable(title, caption):
-    caption = re.sub(r'\s+', ' ', (caption or '')).strip().strip('"“”')
-    if not caption or len(caption) > 58:
-        return ''
+    """Return (caption, '') when usable, or ('', reason) so the refusal is reportable."""
+    caption = re.sub(r'\s+', ' ', (caption or '')).strip().strip('"\u201c\u201d')
+    if not caption:
+        return '', 'no_reply'
+    if len(caption) > 58:
+        return '', 'too_long_%d' % len(caption)
     if len(re.findall(r'[.!?]', caption)) > 1:
-        return ''
+        return '', 'multiple_sentences'
     if title.split(':')[0].casefold() in caption.casefold():
-        return ''
-    return caption if fits(caption) else ''
+        return '', 'echoes_title'
+    if not fits(caption):
+        return '', 'will_not_split_in_two'
+    return caption, ''
 
 
 def call(payload):
@@ -77,7 +88,7 @@ def ask(films):
         + (f", directed by {f['director']}" if f.get('director') else '')
         + (f"\n  Notes: {f['description']}" if f.get('description') else '')
         for f in films)
-    text = call({'model': MODEL, 'max_tokens': 1024,
+    text = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
                  'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
     match = re.search(r'\{.*\}', text, re.S)
     return json.loads(match.group(0)) if match else {}
@@ -98,23 +109,30 @@ def write_summaries(data, limit=None):
         wanted.append(row)
     cap = limit if limit is not None else int(os.environ.get('SUMMARY_LIMIT', '60'))
     wanted = wanted[:cap]
-    written = 0
+    written, issues = 0, []
     for start in range(0, len(wanted), BATCH):
         group = wanted[start:start + BATCH]
         try:
             replies = ask(group)
         except Exception as error:                  # an outage must not fail the build
-            print('Captions: batch skipped —', str(error)[:120], flush=True)
+            print('Captions: batch skipped -', str(error)[:160], flush=True)
+            for film in group:
+                issues.append({'title': film['title'], 'reason': 'request_failed',
+                               'detail': str(error)[:160]})
             continue
+        bykey = {key(k): v for k, v in replies.items()}
         for film in group:
-            caption = acceptable(film['title'], replies.get(film['title'], ''))
+            raw = replies.get(film['title']) or bykey.get(key(film['title'])) or ''
+            caption, why = acceptable(film['title'], raw)
             if caption:
                 summaries[film['title']] = caption
                 written += 1
+            else:
+                issues.append({'title': film['title'], 'reason': why, 'candidate': str(raw)[:120]})
     if written:
         PATH.write_text(json.dumps(dict(sorted(summaries.items())), ensure_ascii=False, indent=2) + '\n')
-    unresolved = len(wanted) - written
-    print(f'Captions: {written} written, {unresolved} left for the next refresh.', flush=True)
+    ISSUES.write_text(json.dumps(issues, ensure_ascii=False, indent=2) + '\n')
+    print(f'Captions: {written} written, {len(issues)} unresolved; see caption-issues.json', flush=True)
     return summaries
 
 
