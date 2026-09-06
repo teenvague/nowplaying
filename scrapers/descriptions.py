@@ -66,7 +66,7 @@ def enrich_descriptions(data,source_dir=None):
         if not desc:
             who=(row.get('director')+'’s ') if row.get('director') else ''
             year=(' '+str(row['year'])) if row.get('year') else ''
-            desc=f"{who}{year.strip()+' ' if year else ''}{row['title']} screens at {VENUES[row['venue']]['name'].title()}."
+            desc=f"{who}{year.strip()+' ' if year else ''}{row['title']} screens at {VENUES[row['venue']]['name']}."
         row['description']=clean(desc)
     return data
 
