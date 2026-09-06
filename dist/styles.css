@@ -43,4 +43,6 @@ footer h2{font-size:15px;line-height:17px}
 footer h2,.page-button .vertical,.page-button.previous .vertical{font-size:var(--courier-small);line-height:var(--courier-leading)}
 .film-preview figcaption{display:block;font-size:var(--courier-small);line-height:var(--courier-leading);font-weight:400;letter-spacing:0;box-sizing:content-box;height:calc(2 * var(--courier-leading));padding:9px 12px;overflow:hidden;-webkit-line-clamp:unset}
 .film-preview figcaption span{display:block;white-space:nowrap}
+/* Films with no authored summary hide the caption; this must outrank the rule above. */
+.film-preview figcaption[hidden]{display:none}
 @media(min-width:801px) and (max-width:1500px){:root{--courier-small:14px;--courier-leading:16px}}
