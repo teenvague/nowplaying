@@ -115,14 +115,17 @@ def ask(films):
         for f in films)
     text, meta = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
                        'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
-    note = re.sub(r'\s+', ' ', text)[:300] or ('empty response ' + json.dumps(meta)[:260])
-    match = re.search(r'\{.*\}', text, re.S)
-    if not match:
-        return {}, note
-    try:
-        return harvest(json.loads(match.group(0)), {}), note
-    except ValueError:
-        return {}, note
+    note = re.sub(r'\s+', ' ', text)[:1200] or ('empty response ' + json.dumps(meta)[:400])
+    body = re.sub(r'^\s*```(?:json)?|```\s*$', '', text.strip())
+    match = re.search(r'\{.*\}', body, re.S)
+    if match:
+        try:
+            return harvest(json.loads(match.group(0)), {}), note
+        except ValueError as error:
+            note = f'json error: {error}; ' + note
+    # A truncated or malformed reply still carries usable pairs; read them directly.
+    pairs = dict(re.findall(r'"([^"\\]{2,160})"\s*:\s*"((?:[^"\\]|\\.)*)"', body))
+    return {k: v.replace('\\n', ' ').replace('\\"', '"') for k, v in pairs.items()}, note
 
 
 def write_summaries(data, limit=None):
