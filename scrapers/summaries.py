@@ -112,6 +112,20 @@ def harvest(node, found):
     return found
 
 
+def read_reply(text):
+    """Pull title -> sentence pairs out of a reply, fenced, nested or truncated."""
+    note = re.sub(r'\s+', ' ', text)[:1200]
+    body = re.sub(r'^\s*```(?:json)?|```\s*$', '', text.strip())
+    match = re.search(r'\{.*\}', body, re.S)
+    if match:
+        try:
+            return harvest(json.loads(match.group(0)), {}), note
+        except ValueError as error:
+            note = f'json error: {error}; ' + note
+    pairs = dict(re.findall(r'"([^"\\]{2,160})"\s*:\s*"((?:[^"\\]|\\.)*)"', body))
+    return {k: v.replace('\\n', ' ').replace('\\"', '"') for k, v in pairs.items()}, note
+
+
 def ask(films):
     listing = '\n'.join(
         f"- {f['title']}"
@@ -121,17 +135,31 @@ def ask(films):
         for f in films)
     text, meta = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
                        'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
-    note = re.sub(r'\s+', ' ', text)[:1200] or ('empty response ' + json.dumps(meta)[:400])
-    body = re.sub(r'^\s*```(?:json)?|```\s*$', '', text.strip())
-    match = re.search(r'\{.*\}', body, re.S)
-    if match:
-        try:
-            return harvest(json.loads(match.group(0)), {}), note
-        except ValueError as error:
-            note = f'json error: {error}; ' + note
-    # A truncated or malformed reply still carries usable pairs; read them directly.
-    pairs = dict(re.findall(r'"([^"\\]{2,160})"\s*:\s*"((?:[^"\\]|\\.)*)"', body))
-    return {k: v.replace('\\n', ' ').replace('\\"', '"') for k, v in pairs.items()}, note
+    replies, note = read_reply(text)
+    return replies, (note or 'empty response ' + json.dumps(meta)[:400])
+
+
+def revise(rejects):
+    """Hand back the ones that missed the measure, with the miss named, and retry."""
+    listing = '\n'.join(
+        f'- {title} — {len(caption)} characters, {why.replace("_", " ")}\n  {caption}'
+        for title, caption, why in rejects)
+    brief = (
+        'These captions are the right idea but the wrong measure. Rewrite each one '
+        'to keep its meaning and lose the excess.\n\n'
+        f'Every sentence must be at most {MAX_CHARS} characters including spaces AND '
+        f'split at a word boundary into two lines of at most {LINE} characters each. '
+        'A sentence can be short enough overall and still fail if no word boundary '
+        'falls near the middle, so watch where it breaks.\n\n'
+        'Cut modifiers and subordinate clauses before you cut the premise. Keep the '
+        'present tense and the indefinite article. Do not mention the venue, the '
+        'format or the print.\n\n'
+        'Reply with a JSON object mapping each title to its rewritten sentence, and '
+        'nothing else. Omit any you cannot bring under the measure.')
+    text, meta = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
+                       'messages': [{'role': 'user', 'content': brief + '\n\n' + listing}]})
+    replies, note = read_reply(text)
+    return replies, (note or 'empty response ' + json.dumps(meta)[:400])
 
 
 def write_summaries(data, limit=None):
@@ -172,6 +200,24 @@ def write_summaries(data, limit=None):
                 written += 1
             else:
                 issues.append({'title': film['title'], 'reason': why, 'candidate': str(raw)[:120]})
+    # A caption refused only for its measure gets one rewrite before it is dropped.
+    retry = [(i['title'], i['candidate'], i['reason']) for i in issues
+             if i.get('candidate') and (i['reason'].startswith('too_long')
+                                        or i['reason'] == 'will_not_split_in_two')]
+    for start in range(0, len(retry), BATCH):
+        group = retry[start:start + BATCH]
+        try:
+            replies, _ = revise(group)
+        except Exception as error:
+            print('Captions: revision skipped -', str(error)[:160], flush=True)
+            break
+        bykey = {key(k): v for k, v in replies.items()}
+        for title, _old, _why in group:
+            caption, why = acceptable(title, replies.get(title) or bykey.get(key(title)) or '')
+            if caption:
+                summaries[title] = caption
+                written += 1
+                issues = [i for i in issues if i['title'] != title]
     if written:
         PATH.write_text(json.dumps(dict(sorted(summaries.items())), ensure_ascii=False, indent=2) + '\n')
     ISSUES.write_text(json.dumps(issues, ensure_ascii=False, indent=2) + '\n')

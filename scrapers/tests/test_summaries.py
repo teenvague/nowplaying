@@ -96,3 +96,50 @@ class Writing(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class Revision(unittest.TestCase):
+    """A caption refused only for its measure gets one rewrite before being dropped."""
+
+    def setUp(self):
+        self.tmp = Path(self.id() + '.json')
+        self.iss = Path(self.id() + '.issues.json')
+        self.p1 = patch.object(s, 'PATH', self.tmp); self.p2 = patch.object(s, 'ISSUES', self.iss)
+        self.p1.start(); self.p2.start()
+        self.tmp.write_text(json.dumps({}))
+
+    def tearDown(self):
+        self.p1.stop(); self.p2.stop()
+        self.tmp.unlink(missing_ok=True); self.iss.unlink(missing_ok=True)
+
+    def test_a_too_long_caption_is_rewritten_and_kept(self):
+        long_one = 'A psychologist travels to a distant space station orbiting a strange living ocean.'
+        self.assertTrue(len(long_one) > s.MAX_CHARS)
+        sent = []
+        def revise(group):
+            sent.append([t for t, _c, _w in group])
+            return {'Orpheus': 'A psychologist visits a station above a living ocean.'}, ''
+        with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), \
+             patch.object(s, 'ask', return_value=({'Orpheus': long_one}, '')), \
+             patch.object(s, 'revise', side_effect=revise):
+            out = s.write_summaries({'screenings': [{'title': 'Orpheus', 'description': 'x'}]})
+        self.assertEqual(sent, [['Orpheus']])
+        self.assertEqual(out['Orpheus'], 'A psychologist visits a station above a living ocean.')
+        self.assertEqual(json.loads(self.iss.read_text()), [])
+
+    def test_a_rewrite_that_still_misses_leaves_the_issue(self):
+        long_one = 'A psychologist travels to a distant space station orbiting a strange living ocean.'
+        with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), \
+             patch.object(s, 'ask', return_value=({'Orpheus': long_one}, '')), \
+             patch.object(s, 'revise', return_value=({'Orpheus': long_one}, '')):
+            out = s.write_summaries({'screenings': [{'title': 'Orpheus', 'description': 'x'}]})
+        self.assertNotIn('Orpheus', out)
+        self.assertEqual([i['reason'].startswith('too_long') for i in json.loads(self.iss.read_text())], [True])
+
+    def test_an_omitted_reply_is_never_sent_for_revision(self):
+        sent = []
+        with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), \
+             patch.object(s, 'ask', return_value=({}, '')), \
+             patch.object(s, 'revise', side_effect=lambda g: (sent.append(g), ({}, ''))[1]):
+            s.write_summaries({'screenings': [{'title': 'Orpheus', 'description': 'x'}]})
+        self.assertEqual(sent, [])
