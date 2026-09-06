@@ -6,53 +6,38 @@
   },
   {
     "title": "Falling Leaves",
-    "reason": "too_long_74",
-    "candidate": "A man returns to his native village\nand confronts the modest life he left."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Solaris",
-    "reason": "too_long_67",
-    "candidate": "A psychologist journeys to a space\nstation orbiting an alien ocean."
+    "reason": "too_long_70",
+    "candidate": "A psychologist journeys to a space station\norbit by a sentient planet."
   },
   {
     "title": "Pastorale",
-    "reason": "will_not_split_in_two",
-    "candidate": "An idle aristocrat wanders through\nthe French countryside."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "La Haine",
-    "reason": "too_long_66",
-    "candidate": "Three young men spend a day in Paris\nfollowing a violent incident."
+    "reason": "too_long_75",
+    "candidate": "Three young men navigate a single day in\nParis's troubled housing projects."
   },
   {
     "title": "Happy Together",
-    "reason": "too_long_70",
-    "candidate": "Two lovers drift through Buenos Aires\nas their relationship dissolves."
+    "reason": "will_not_split_in_two",
+    "candidate": "Two lovers confront the end of their\nrelationship in Buenos Aires."
   },
   {
     "title": "Chasing Butterflies",
-    "reason": "too_long_67",
-    "candidate": "Two elderly women maintain their\nprewar rituals in decaying France."
-  },
-  {
-    "title": "Withnail and I",
-    "reason": "too_long_61",
-    "candidate": "Two unemployed actors escape London\nfor a disastrous holiday."
+    "reason": "too_long_77",
+    "candidate": "Two elderly women maintain aristocratic\nrituals in a decaying French chateau."
   },
   {
     "title": "Zidane: A 21st Century Portrait",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "The Wedding Banquet",
-    "reason": "will_not_split_in_two",
-    "candidate": "A gay man stages a fake wedding\nto appease his parents."
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Daughter's Daughter (2024)\": \"A woman navigates relationships across\\nthree generations of her family.\", \"The Ninth Gate (1999)\": \"A rare book dealer authenticates a\\ntext purportedly summoning the Devil.\", \"A Better Tomorrow III: Love and Death in Saigon (1989)\": \"A younger Mark operates as a criminal\\nin 1974 Saigon.\", \"The Double (2013)\": \"An overlooked office worker encounters\\nhis mysterious, confident double.\", \"Iphigenia (1977)\": \"A young woman faces her father's\\nfate-ordained sacrifice.\", \"Electra, My Love (1974)\": \"An ancient myth of vengeance unfolds\\nacross Hungary's endless plains.\", \"Goodbye, Dragon Inn (2003)\": \"A Taipei movie palace prepares to\\nclose its doors forever.\" } ```"
   },
   {
     "title": "Daughter's Daughter",
@@ -66,23 +51,13 @@
   },
   {
     "title": "The Ninth Gate",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "A Better Tomorrow III: Love and Death in Saigon",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_71",
+    "candidate": "An antiquarian authenticates a rare\nbook allegedly summoning the Devil."
   },
   {
     "title": "The Double",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Iphigenia",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_69",
+    "candidate": "A timid office worker confronts an\nidentical, confident doppelgänger."
   },
   {
     "title": "Tokyo Melody",
@@ -91,8 +66,8 @@
   },
   {
     "title": "Electra, My Love",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_72",
+    "candidate": "A woman seeks vengeance for her\nfather's murder across Hungary's plains."
   },
   {
     "title": "Ryuichi Sakamoto: Diaries",
@@ -106,18 +81,8 @@
   },
   {
     "title": "Alien: Resurrection",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Goodbye, Dragon Inn",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Pushing Hands (1991)\": \"A widowed tai chi master struggles when language divides him from his American family.\", \"Story of Mother (1973)\": \"A young mother's infidelity fractures her family's fragile domestic peace.\", \"Ryuichi Sakamoto: Coda (2017)\": \"A composer returns to music-making in his final creative chapter.\", \"RoboCop - The Director's Cut (1987)\": \"A slain cop is resurrected as a cyborg enforcer in a corporate-run future city.\", \"O Brother, Where Art Thou? (2000)\": \"Three escaped convicts journey through Depression-era Mississippi seeking fortune and home.\", \"Midnight in Paris (2011)\": \"A writer stumbles into 1920s Paris while searching for inspiration and romance.\", \"Train to Busan (2016)\": \"A father and daughter board a train that becomes a refuge from a spreading zombie plague.\", \"The Beach (2000)\": \"A backpacker discovers an island paradise that conceals darker human impulses.\", \"Amour (2012)\": \"An elderly couple confronts mortality as illness forces a reckoning with their bond.\" } ```"
+    "reason": "too_long_71",
+    "candidate": "Scientists resurrect a xenomorph\nqueen aboard an orbiting space vessel."
   },
   {
     "title": "Pushing Hands",
@@ -136,8 +101,8 @@
   },
   {
     "title": "Story of Mother",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A young mother's infidelity threatens her\nfamily's fragile peace."
   },
   {
     "title": "Fireflies Press Presents: Morvern Callar",
@@ -145,49 +110,19 @@
     "candidate": ""
   },
   {
-    "title": "Ryuichi Sakamoto: Coda",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "RoboCop - The Director's Cut",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "O Brother, Where Art Thou?",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Midnight in Paris",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A writer travels back in time through\nthe streets of Paris at night."
   },
   {
     "title": "Train to Busan",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Beach",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_73",
+    "candidate": "A father and daughter find themselves\ntrapped on a zombie-infested train."
   },
   {
     "title": "Amour",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"The Taking of Pelham One Two Three (1974)\": \"Hijackers seize a New York City\\nsubway train and demand ransom.\", \"Invisible Adversaries (1977)\": \"A woman navigates her fractured\\npsyche in an urban landscape.\", \"Sympathy for Mr. Vengeance (2002)\": \"A deaf man seeks revenge after his\\nsister is kidnapped for ransom.\", \"The Wailing (2016)\": \"A policeman investigates a string of\\nmysterious deaths in his village.\", \"Small Change (1976)\": \"Children navigate the world between\\ninfancy and adolescence.\", \"High and Low (1963)\": \"A wealthy businessman faces a moral\\ndilemma when his driver's son is kidnapped.\", \"Nostos: The Return (1989)\": \"An interpretation of Homer's Odyssey\\nunfolds through image and sound.\", \"Ulysses' Gaze (1995)\": \"A filmmaker searches the Balkans for\\nfootage of cinema's earliest moments.\", \"The Yellow Sea (2010)\": \"A desperate man flees across borders\\nafter a hit goes wrong.\", \"A Bittersweet Life (2005)\": \"A loyal enforcer becomes hunted when\\nhe defies his mob boss.\" } ```"
-  },
-  {
-    "title": "The Taking of Pelham One Two Three",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "An elderly couple confronts mortality\nand the bonds of devotion."
   },
   {
     "title": "Invisible Adversaries",
@@ -195,24 +130,19 @@
     "candidate": ""
   },
   {
-    "title": "Sympathy for Mr. Vengeance",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Wailing",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_70",
+    "candidate": "A police officer investigates a series of murders in a remote village."
   },
   {
     "title": "Small Change",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_71",
+    "candidate": "Children experience the joys and perils of growing up in a French town."
   },
   {
     "title": "High and Low",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_70",
+    "candidate": "A wealthy industrialist's son is kidnapped, testing his moral resolve."
   },
   {
     "title": "The Practice of Love",
@@ -230,21 +160,6 @@
     "candidate": ""
   },
   {
-    "title": "Ulysses' Gaze",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Yellow Sea",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "A Bittersweet Life",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Foul King",
     "reason": "no_reply",
     "candidate": ""
@@ -256,7 +171,7 @@
   },
   {
     "title": "I Walked with a Zombie",
-    "reason": "too_long_75",
-    "candidate": "A nurse tends to a catatonic woman\non a Caribbean island haunted by voodoo."
+    "reason": "too_long_77",
+    "candidate": "A nurse arrives on a Caribbean island to care for a planter's catatonic wife."
   }
 ]
