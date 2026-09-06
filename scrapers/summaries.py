@@ -15,7 +15,7 @@ ISSUES = ROOT / 'dist/data/caption-issues.json'
 API = 'https://api.anthropic.com/v1/messages'
 MODEL = os.environ.get('SUMMARY_MODEL') or 'claude-sonnet-5'
 BATCH = 12
-MAX_TOKENS = 2048
+MAX_TOKENS = 4096
 LINE = 30
 
 BRIEF = (
@@ -76,9 +76,16 @@ def call(payload):
         headers={'content-type': 'application/json',
                  'anthropic-version': '2023-06-01',
                  'x-api-key': os.environ['ANTHROPIC_API_KEY']})
-    with urllib.request.urlopen(request, timeout=60) as response:
+    with urllib.request.urlopen(request, timeout=90) as response:
         body = json.load(response)
-    return ''.join(part.get('text', '') for part in body.get('content', []))
+    blocks = body.get('content') or []
+    text = ''.join(b.get('text', '') for b in blocks if isinstance(b, dict))
+    meta = {'stop_reason': body.get('stop_reason'),
+            'block_types': [b.get('type') for b in blocks if isinstance(b, dict)],
+            'blocks': len(blocks),
+            'usage': body.get('usage'),
+            'top_level_keys': sorted(body.keys())}
+    return text, meta
 
 
 def harvest(node, found):
@@ -106,15 +113,16 @@ def ask(films):
         + (f", directed by {f['director']}" if f.get('director') else '')
         + (f"\n  Notes: {f['description']}" if f.get('description') else '')
         for f in films)
-    text = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
-                 'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
+    text, meta = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
+                       'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
+    note = re.sub(r'\s+', ' ', text)[:300] or ('empty response ' + json.dumps(meta)[:260])
     match = re.search(r'\{.*\}', text, re.S)
     if not match:
-        return {}, text
+        return {}, note
     try:
-        return harvest(json.loads(match.group(0)), {}), text
+        return harvest(json.loads(match.group(0)), {}), note
     except ValueError:
-        return {}, text
+        return {}, note
 
 
 def write_summaries(data, limit=None):
@@ -146,7 +154,7 @@ def write_summaries(data, limit=None):
         bykey = {key(k): v for k, v in replies.items()}
         if not any(replies.get(f['title']) or bykey.get(key(f['title'])) for f in group):
             issues.append({'title': '(whole batch)', 'reason': 'reply_shape_unrecognised',
-                           'candidate': re.sub(r'\s+', ' ', raw)[:300]})
+                           'candidate': raw})
         for film in group:
             raw = replies.get(film['title']) or bykey.get(key(film['title'])) or ''
             caption, why = acceptable(film['title'], raw)
