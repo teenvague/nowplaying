@@ -5,29 +5,14 @@
     "candidate": ""
   },
   {
-    "title": "Zidane: A 21st Century Portrait",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Daughter's Daughter",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "This Long Century Presents: Salomé Lamas",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "Tokyo Melody",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Ryuichi Sakamoto: Diaries",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A woman in Tokyo searches for connection\nthrough music and memory."
   },
   {
     "title": "Eddington",
@@ -36,21 +21,11 @@
   },
   {
     "title": "Alien: Resurrection",
-    "reason": "too_long_85",
-    "candidate": "A cloned soldier awakens centuries later to\nface the creatures she was bred to fight."
+    "reason": "too_long_77",
+    "candidate": "Scientists resurrect a xenomorph queen to\nharvest the creature within Ripley."
   },
   {
     "title": "Jollof Films Presents: Faat Kiné",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Ryuichi Sakamoto | Opus",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Story of Mother",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -76,8 +51,8 @@
   },
   {
     "title": "Nostos: The Return",
-    "reason": "too_long_72",
-    "candidate": "A filmmaker interprets Homer's Odyssey through\nimages rather than words."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Valie Export Shorts Program",
@@ -90,7 +65,7 @@
     "candidate": ""
   },
   {
-    "title": "The Draughtsman's Contract + Live Performance | Instruments of Desire",
+    "title": "Coyote vs. Acme",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -100,32 +75,12 @@
     "candidate": ""
   },
   {
-    "title": "Coyote vs. Acme",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The End of Oak Street",
-    "reason": "will_not_split_in_two",
-    "candidate": "A family must survive in their transformed and unrecognizable world."
-  },
-  {
-    "title": "Merrily We Go To Hell",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "Gang Related",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Practical Magic 2",
-    "reason": "will_not_split_in_two",
-    "candidate": "Two sisters confront a curse threatening to destroy their family."
-  },
-  {
-    "title": "A Litany for Survival: The Life and Work of Audre Lorde",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -155,8 +110,13 @@
     "candidate": ""
   },
   {
-    "title": "Thiiird",
-    "reason": "too_long_76",
-    "candidate": "A mechanic discovers he must fix his customers' lives as well as their cars."
+    "title": "Forbidden Planet",
+    "reason": "will_not_split_in_two",
+    "candidate": "A starship crew encounters an invisible force on a distant planet."
+  },
+  {
+    "title": "Juice",
+    "reason": "no_reply",
+    "candidate": ""
   }
 ]
