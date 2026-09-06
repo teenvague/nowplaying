@@ -52,7 +52,9 @@ def fits(caption, limit=LINE):
 
 
 def key(title):
-    return re.sub(r'[^a-z0-9]', '', (title or '').casefold())
+    """Match loosely: the model tends to echo the title with its year attached."""
+    title = re.sub(r'\s*\((?:19|20)\d{2}\)\s*$', '', (title or '').strip())
+    return re.sub(r'[^a-z0-9]', '', title.casefold())
 
 
 def acceptable(title, caption):
