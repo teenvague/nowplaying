@@ -11,8 +11,8 @@
   },
   {
     "title": "Tokyo Melody",
-    "reason": "will_not_split_in_two",
-    "candidate": "A woman in Tokyo searches for connection\nthrough music and memory."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Eddington",
@@ -21,8 +21,8 @@
   },
   {
     "title": "Alien: Resurrection",
-    "reason": "too_long_77",
-    "candidate": "Scientists resurrect a xenomorph queen to\nharvest the creature within Ripley."
+    "reason": "too_long_91",
+    "candidate": "A scientist resurrects the last surviving alien\nqueenly hybrid from human genetic material."
   },
   {
     "title": "Jollof Films Presents: Faat Kiné",
@@ -35,29 +35,9 @@
     "candidate": ""
   },
   {
-    "title": "Invisible Adversaries",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Wailing",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Practice of Love",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Nostos: The Return",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Valie Export Shorts Program",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_82",
+    "candidate": "A provocative collection of films exploring the\nfemale body and artistic autonomy."
   },
   {
     "title": "The Foul King",
@@ -65,14 +45,9 @@
     "candidate": ""
   },
   {
-    "title": "Coyote vs. Acme",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Onslaught",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "An Army sniper confronts genetically\nengineered super soldiers."
   },
   {
     "title": "The End of Oak Street",
@@ -81,8 +56,8 @@
   },
   {
     "title": "Gang Related",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_71",
+    "candidate": "Corrupt police officers operate as\nthe city's most dangerous criminals."
   },
   {
     "title": "Final Fantasy: The Spirits Within",
@@ -108,11 +83,6 @@
     "title": "NoBudge Live 52",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Forbidden Planet",
-    "reason": "will_not_split_in_two",
-    "candidate": "A starship crew encounters an invisible force on a distant planet."
   },
   {
     "title": "Juice",
