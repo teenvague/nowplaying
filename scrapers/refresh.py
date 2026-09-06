@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup, Comment
 from titles import title_case
 from cache_images import cache_images
 from descriptions import enrich_descriptions, clean
+from summaries import write_summaries
 
 ROOT = Path(__file__).resolve().parents[1]
 NY = ZoneInfo('America/New_York')
@@ -361,6 +362,7 @@ def refresh():
     except Exception as e: print('Series refresh retained last snapshot:', str(e), flush=True)
     data = cache_images(data)
     data = enrich_descriptions(data)
+    write_summaries(data)
     tmp = path.with_suffix('.tmp'); tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2)); tmp.replace(path)
     return data
 

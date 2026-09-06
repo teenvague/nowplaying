@@ -34,7 +34,7 @@ Pages setup: https://docs.github.com/en/pages/getting-started-with-github-pages/
 
 ## Content maintenance
 
-The daily workflow refreshes listings and downloads available film images. Individually sourced replacement images are already included. Automatic replacement-still sourcing is now implemented through TMDB; enable it using the setup below. AI summaries for newly added films are still maintained separately. Add new summaries to dist/data/film-summaries.json; each sentence must split at a word boundary into two lines of at most 30 characters each. No AI API key is needed for the current site.
+The daily workflow refreshes listings and downloads available film images. Individually sourced replacement images are already included. Automatic replacement-still sourcing is now implemented through TMDB; enable it using the setup below. Captions for newly added films are written during the refresh when ANTHROPIC_API_KEY is set as a repository secret; add it under Settings → Secrets and variables → Actions. Without it the site still publishes and those films show the still with no caption. Captions are cached in dist/data/film-summaries.json and can be edited by hand; an existing entry is never replaced. Each sentence must split at a word boundary into two lines of at most 30 characters each.
 
 Helvetica Neue uses the font installed on the visitor's device, with Helvetica/Arial fallbacks; Courier Prime is included. See README.md for coverage and source details.
 

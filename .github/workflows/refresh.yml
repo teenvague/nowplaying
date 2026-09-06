@@ -52,10 +52,13 @@ jobs:
 
       - name: Collect listings
         # A venue that fails keeps its last successful data; refresh.py handles that.
-        # TMDB_READ_TOKEN is optional — without it, TMDB still lookups are skipped.
+        # TMDB_READ_TOKEN and ANTHROPIC_API_KEY are both optional: without them,
+        # still lookups and caption writing are skipped and the run still publishes.
         if: steps.gate.outputs.go == 'true'
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL }}
         run: python scrapers/refresh.py
 
       - name: Validate snapshot
