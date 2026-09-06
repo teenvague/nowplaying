@@ -81,6 +81,24 @@ def call(payload):
     return ''.join(part.get('text', '') for part in body.get('content', []))
 
 
+def harvest(node, found):
+    """Collect every title -> sentence pair, whatever shape the reply arrived in."""
+    if isinstance(node, dict):
+        title = node.get('title') or node.get('film') or node.get('name')
+        caption = node.get('caption') or node.get('sentence') or node.get('summary')
+        if isinstance(title, str) and isinstance(caption, str):
+            found[title] = caption
+        for k, v in node.items():
+            if isinstance(v, str):
+                found.setdefault(k, v)
+            else:
+                harvest(v, found)
+    elif isinstance(node, list):
+        for item in node:
+            harvest(item, found)
+    return found
+
+
 def ask(films):
     listing = '\n'.join(
         f"- {f['title']}"
@@ -91,7 +109,12 @@ def ask(films):
     text = call({'model': MODEL, 'max_tokens': MAX_TOKENS,
                  'messages': [{'role': 'user', 'content': BRIEF + '\n\n' + listing}]})
     match = re.search(r'\{.*\}', text, re.S)
-    return json.loads(match.group(0)) if match else {}
+    if not match:
+        return {}, text
+    try:
+        return harvest(json.loads(match.group(0)), {}), text
+    except ValueError:
+        return {}, text
 
 
 def write_summaries(data, limit=None):
@@ -113,7 +136,7 @@ def write_summaries(data, limit=None):
     for start in range(0, len(wanted), BATCH):
         group = wanted[start:start + BATCH]
         try:
-            replies = ask(group)
+            replies, raw = ask(group)
         except Exception as error:                  # an outage must not fail the build
             print('Captions: batch skipped -', str(error)[:160], flush=True)
             for film in group:
@@ -121,6 +144,9 @@ def write_summaries(data, limit=None):
                                'detail': str(error)[:160]})
             continue
         bykey = {key(k): v for k, v in replies.items()}
+        if not any(replies.get(f['title']) or bykey.get(key(f['title'])) for f in group):
+            issues.append({'title': '(whole batch)', 'reason': 'reply_shape_unrecognised',
+                           'candidate': re.sub(r'\s+', ' ', raw)[:300]})
         for film in group:
             raw = replies.get(film['title']) or bykey.get(key(film['title'])) or ''
             caption, why = acceptable(film['title'], raw)

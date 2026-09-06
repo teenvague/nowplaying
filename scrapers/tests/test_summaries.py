@@ -5,11 +5,27 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import summaries as s
 
+SENTENCE_ = 'A poet crosses into death for love.'
+
 FILMS = {'screenings': [
     {'title': 'Orpheus', 'year': 1950, 'director': 'Jean Cocteau', 'description': 'A poet follows death.'},
     {'title': 'Orpheus', 'year': 1950, 'director': 'Jean Cocteau', 'description': 'A poet follows death.'},
     {'title': 'Playtime', 'year': 1967, 'director': 'Jacques Tati', 'description': 'A visitor in Paris.'},
 ]}
+
+class ReplyShapes(unittest.TestCase):
+    SENTENCE = 'A poet crosses into death for love.'
+
+    def test_every_shape_yields_the_pair(self):
+        for shape in [
+            {'Orpheus': SENTENCE_},
+            {'captions': {'Orpheus': SENTENCE_}},
+            {'films': [{'title': 'Orpheus', 'caption': SENTENCE_}]},
+            [{'title': 'Orpheus', 'sentence': SENTENCE_}],
+            {'result': {'data': {'Orpheus': SENTENCE_}}},
+        ]:
+            self.assertEqual(s.harvest(shape, {}).get('Orpheus'), SENTENCE_, shape)
+
 
 class Constraint(unittest.TestCase):
     def test_two_short_lines_required(self):
@@ -40,7 +56,7 @@ class Writing(unittest.TestCase):
         seen = []
         def ask(group):
             seen.append([f['title'] for f in group])
-            return {'Orpheus': 'A poet crosses into death in pursuit of love.'}
+            return {'Orpheus': 'A poet crosses into death in pursuit of love.'}, '{}'
         with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), patch.object(s, 'ask', ask):
             out = s.write_summaries(FILMS)
         self.assertEqual(seen, [['Orpheus']])                      # deduped, Playtime skipped
@@ -58,7 +74,7 @@ class Writing(unittest.TestCase):
     def test_a_refused_caption_is_reported(self):
         self.tmp.write_text(json.dumps({}))
         with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), \
-             patch.object(s, 'ask', return_value={'Orpheus': 'A ' + 'very ' * 20 + 'long line.'}):
+             patch.object(s, 'ask', return_value=({'Orpheus': 'A ' + 'very ' * 20 + 'long line.'}, '{}')):
             s.write_summaries(FILMS)
         reasons = {i['title']: i['reason'] for i in json.loads(self.iss.read_text())}
         self.assertTrue(reasons['Orpheus'].startswith('too_long'))
@@ -67,8 +83,8 @@ class Writing(unittest.TestCase):
     def test_a_reworded_title_key_still_matches(self):
         self.tmp.write_text(json.dumps({}))
         with patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'x'}), \
-             patch.object(s, 'ask', return_value={'orpheus': 'A poet crosses into death for love.',
-                                                  'PLAYTIME!': 'A visitor loses his way in Paris.'}):
+             patch.object(s, 'ask', return_value=({'orpheus': 'A poet crosses into death for love.',
+                                                   'PLAYTIME!': 'A visitor loses his way in Paris.'}, '{}')):
             out = s.write_summaries(FILMS)
         self.assertIn('Orpheus', out)
         self.assertIn('Playtime', out)
