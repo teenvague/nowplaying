@@ -28,23 +28,33 @@ class Aggregate(unittest.TestCase):
         self.assertTrue(nyff['url'].startswith('https://www.filmlinc.org/'))
 
     def test_a_failed_source_keeps_its_previous_entries(self):
-        previous = [{'title': 'OLD METROGRAPH SERIES', 'venue': 'METROGRAPH', 'venueId': 'metrograph',
+        previous = [{'title': 'OLD DOC NYC', 'venue': 'METROGRAPH', 'venueId': 'metrograph',
                      'dates': 'FROM AUGUST 1', 'startDate': '2026-08-01', 'url': 'x', 'fetchedAt': 'y'},
-                    {'title': 'OLD FLC', 'venue': 'FILM AT LINCOLN CENTER', 'venueId': 'lincoln',
+                    {'title': 'OLD TRIBECA', 'venue': 'FILM AT LINCOLN CENTER', 'venueId': 'lincoln',
                      'dates': 'FROM AUGUST 2', 'startDate': '2026-08-02', 'url': 'x', 'fetchedAt': 'y'}]
         def boom(): raise ValueError('503')
-        good = [{'title': 'NEW FLC', 'venue': 'FILM AT LINCOLN CENTER', 'venueId': 'lincoln',
+        good = [{'title': 'NEW FILM FESTIVAL', 'venue': 'FILM AT LINCOLN CENTER', 'venueId': 'lincoln',
                  'dates': 'FROM SEPTEMBER 1', 'startDate': '2026-09-01', 'url': 'x', 'fetchedAt': 'y'}]
         with patch.object(refresh, 'SERIES_SOURCES', [('metrograph', boom), ('lincoln', lambda: good)]):
             out = refresh.festivals(previous)
         titles = [f['title'] for f in out]
-        self.assertEqual(titles, ['OLD METROGRAPH SERIES', 'NEW FLC'])   # stale kept, fresh added, sorted
+        self.assertEqual(titles, ['OLD DOC NYC', 'NEW FILM FESTIVAL'])   # stale kept, fresh added, sorted
 
-    def test_every_source_failing_with_no_history_is_an_error(self):
+    def test_a_curated_series_is_not_a_festival(self):
+        series = [{'title': 'RADICAL CHIAROSCURO: THE WORK OF DARIUS KHONDJI', 'venue': 'METROGRAPH',
+                   'venueId': 'metrograph', 'dates': 'FROM SEPTEMBER 6', 'startDate': '2026-09-06',
+                   'url': 'x', 'fetchedAt': 'y'},
+                  {'title': '64TH NEW YORK FILM FESTIVAL', 'venue': 'FILM AT LINCOLN CENTER',
+                   'venueId': 'lincoln', 'dates': 'SEPTEMBER 25 THROUGH OCTOBER 12',
+                   'startDate': '2026-09-25', 'url': 'x', 'fetchedAt': 'y'}]
+        with patch.object(refresh, 'SERIES_SOURCES', [('metrograph', lambda: series)]):
+            out = refresh.festivals([])
+        self.assertEqual([f['title'] for f in out], ['64TH NEW YORK FILM FESTIVAL'])
+
+    def test_no_festivals_running_is_not_an_error(self):
         def boom(): raise ValueError('503')
         with patch.object(refresh, 'SERIES_SOURCES', [('metrograph', boom)]):
-            with self.assertRaises(ValueError):
-                refresh.festivals([])
+            self.assertEqual(refresh.festivals([]), [])
 
 
 if __name__ == '__main__':

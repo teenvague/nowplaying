@@ -348,6 +348,14 @@ def lincoln_series():
     return output
 
 
+# The strip is for festivals, not a venue's curated series: a run of Metrograph
+# collections buried NYFF 27 entries along a row nobody scrolls that far. Named
+# festivals only — extend this list as more sources are aggregated.
+FESTIVAL = re.compile(
+    r'\bfestival\b|\bfilm week\b|\bbiennial\b|\bnew directors\b|\bopen roads\b'
+    r'|\brendez-?vous\b|\bart of the real\b|\bdoc ?nyc\b|\bnewfest\b|\btribeca\b'
+    r'|cinemafest|\bfirst look\b|\bnyff\b', re.I)
+
 SERIES_SOURCES = [('metrograph', metrograph_series), ('lincoln', lincoln_series)]
 
 def festivals(previous=None):
@@ -362,10 +370,11 @@ def festivals(previous=None):
             print(f'Series: {venue} unavailable ({str(error)[:70]}); keeping its last snapshot', flush=True)
             found = [f for f in previous if f.get('venueId') == venue]
         for entry in found:
+            if not FESTIVAL.search(entry['title']): continue
             token = (entry['venueId'], entry['title'])
             if token in seen: continue
             seen.add(token); output.append(entry)
-    if not output: raise ValueError('No verified series from any source')
+    # Between festival seasons an empty strip is the honest answer, not a failure.
     return sorted(output, key=lambda f: (f['startDate'], f['title']))
 
 
