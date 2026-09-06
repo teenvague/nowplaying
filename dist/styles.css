@@ -54,3 +54,13 @@ footer h2,.page-button .vertical,.page-button.previous .vertical{font-size:var(-
 /* The bar scrolls horizontally only. overflow-x:auto silently computes overflow-y
    to auto, which let the row scroll vertically; size the bar to its content and clip. */
 footer{max-height:none;overflow-y:hidden}
+
+/* Columns step down with the viewport so a day never gets narrower than ~280px.
+   --days is the number of day columns rendered per page; app.js reads it so that
+   NEXT/PREVIOUS always advance by exactly one screenful. Below 801px the calendar
+   becomes a one-day swipe and keeps rendering five. */
+:root{--days:5}
+@media(min-width:1150px) and (max-width:1399px){:root{--days:4}}
+@media(min-width:950px) and (max-width:1149px){:root{--days:3}}
+@media(min-width:801px) and (max-width:949px){:root{--days:2}}
+@media(min-width:801px){.days{grid-template-columns:repeat(var(--days),minmax(0,1fr))}}
