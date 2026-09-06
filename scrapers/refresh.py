@@ -304,7 +304,7 @@ ADAPTERS = {'metrograph': metrograph, 'film-forum': film_forum, 'ifc': ifc, 'rox
             'moma': structured_events, 'angelika': structured_events,
             'momi': structured_events, 'spectacle': structured_events}
 
-def festivals():
+def metrograph_series():
     source = 'https://metrograph.com/series/'
     s = soup(source, 'metrograph-series'); output = []
     for link in s.select('.movie_title a'):
@@ -316,8 +316,58 @@ def festivals():
         output.append({'title': text(link).upper(), 'venue': 'METROGRAPH', 'venueId': 'metrograph',
                        'dates': when.upper(), 'startDate': start,
                        'url': urljoin(source, link['href']), 'fetchedAt': STAMP})
-    if not output: raise ValueError('No verified series')
     return output
+
+
+# Film at Lincoln Center hydrates its calendar from a JSON payload that carries the
+# markup as an escaped string, so unescape before parsing. Keys on href and heading
+# rather than the utility classes around them.
+FLC_SKIP = {'new releases', 'get tickets', 'get pre-sale access', 'membership'}
+SPAN = re.compile(r'([A-Z][a-z]+ \d{1,2})\s*(?:through|to|–|—|-)\s*([A-Z][a-z]+ \d{1,2})|([A-Z][a-z]+ \d{1,2})\s+only')
+
+def lincoln_series():
+    source = 'https://www.filmlinc.org/calendar/'
+    raw = fetch(source, 'flc-calendar').replace('\\"', '"').replace('\\u003c', '<').replace('\\u003e', '>')
+    s = BeautifulSoup(raw, 'html.parser'); output = []
+    for link in s.select('a[href^="/series/"], a[href^="/nyff"]'):
+        heading = link.find(['h1', 'h2', 'h3', 'h4'])
+        if not heading: continue
+        title = text(heading)
+        if not title or title.casefold() in FLC_SKIP: continue
+        block = link.find_parent(['article', 'section', 'li', 'div']) or link.parent
+        match = SPAN.search(text(block)[:900])
+        if not match: continue
+        first = match[1] or match[3]
+        try: start = short_date(first)
+        except ValueError: continue
+        if abs((date.fromisoformat(start) - TODAY).days) > 60: continue
+        when = f'{first} through {match[2]}' if match[2] else f'{first} only'
+        output.append({'title': title.upper(), 'venue': 'FILM AT LINCOLN CENTER', 'venueId': 'lincoln',
+                       'dates': when.upper(), 'startDate': start,
+                       'url': urljoin(source, link['href']), 'fetchedAt': STAMP})
+    return output
+
+
+SERIES_SOURCES = [('metrograph', metrograph_series), ('lincoln', lincoln_series)]
+
+def festivals(previous=None):
+    """Aggregate series and festivals across venues; one bad source keeps its last good rows."""
+    previous = previous or []
+    output, seen = [], set()
+    for venue, parser in SERIES_SOURCES:
+        try:
+            found = parser()
+            if not found: raise ValueError('no entries parsed')
+        except Exception as error:
+            print(f'Series: {venue} unavailable ({str(error)[:70]}); keeping its last snapshot', flush=True)
+            found = [f for f in previous if f.get('venueId') == venue]
+        for entry in found:
+            token = (entry['venueId'], entry['title'])
+            if token in seen: continue
+            seen.add(token); output.append(entry)
+    if not output: raise ValueError('No verified series from any source')
+    return sorted(output, key=lambda f: (f['startDate'], f['title']))
+
 
 def normalize(records):
     grouped = {}
@@ -364,7 +414,7 @@ def refresh():
             print(f'{name}: {status["status"]}, {len(rows)} film/day entries', flush=True)
             data['screenings'].extend(rows); data['venues'][name] = status
             if status['status'] in ['ok', 'partial']: data['updatedAt'] = STAMP
-    try: data['festivals'] = festivals()
+    try: data['festivals'] = festivals(old.get('festivals'))
     except Exception as e: print('Series refresh retained last snapshot:', str(e), flush=True)
     data = cache_images(data)
     data = enrich_descriptions(data)
