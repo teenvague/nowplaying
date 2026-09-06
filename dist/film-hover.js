@@ -39,8 +39,16 @@ function positionFilmPreview(){
   filmPreview.style.top='0px';
   filmPreview.hidden=false;
   const height=filmPreview.getBoundingClientRect().height;
-  if(rect.top-height-8<8){filmPreview.hidden=true;return;}
-  filmPreview.style.top=`${rect.top-height-8}px`;
+  const gap=8;
+  // Above the entry by default; below it when the header leaves no room,
+  // and clamped into the viewport when neither side fits. Never suppressed:
+  // the top entry of a column would otherwise show nothing at all.
+  let top=rect.top-height-gap;
+  if(top<gap){
+    top=rect.bottom+gap;
+    if(top+height>innerHeight-gap) top=Math.max(gap,innerHeight-height-gap);
+  }
+  filmPreview.style.top=`${top}px`;
 }
 function showFilmPreview(screening,film){
   hideFilmPreview();const url=film.imageUrl;
