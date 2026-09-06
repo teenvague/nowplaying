@@ -250,25 +250,31 @@ def paris(v):
         rows.append(row(v['id'], movie.get('FilmName') or event['EventName'], event['EventDate'], [clock(event['EventTime'])], event['TicketLink'], director=movie.get('Director'), year=movie.get('Year'), format=physical(str(movie.get('FilmFormat', ''))), notes=event.get('HeroDetails'), imageUrl=((event.get('HeroImage') or {}).get('data') or {}).get('attributes', {}).get('url')))
     return rows
 
-def light_industry(v):
-    s = soup(v['sourceUrl'], 'light-calendar'); rows = []; year = None
-    content = s.select_one('#content')
-    if not content: raise ValueError('Calendar missing')
-    for strong in content.select('strong'):
-        label = text(strong)
-        if re.fullmatch(r'\d{4}', label): year = int(label); continue
-        if year != TODAY.year: continue
-        try: day = short_date(label)
-        except ValueError: continue
-        if not TODAY.isoformat() <= day <= (TODAY + timedelta(days=60)).isoformat(): continue
-        link = strong.find_next_sibling('a')
-        if not link or 'lightindustry.org' not in link.get('href', ''): continue
-        detail = soup(link['href']).select_one('#content')
-        match = re.search(r'\b\d{1,2}(?::\d{2})?\s*[ap]m\b', text(detail), re.I)
-        if not match: continue
-        rows.append(row(v['id'], text(link), day, [clock(match[0])], link['href'], imageUrl=image_url(detail.select_one('img'), link['href'])))
-    # An intact dated calendar with no upcoming entries is a valid empty result.
-    if not content.find('strong'): raise ValueError('No calendar entries')
+def nitehawk(v):
+    """One page per day: /prospectpark/<date>/<offset>/. Three weeks out is all they post."""
+    base = v['sourceUrl'].rstrip('/')
+    def day(offset):
+        when = (TODAY + timedelta(days=offset)).isoformat()
+        try:
+            s = soup(f'{base}/{when}/{offset}/', f'nitehawk-{offset}')
+        except Exception:
+            return []
+        found = []
+        for card in s.select('li.show-container.thumbnail'):
+            title = text(card.select_one('.show-title'))
+            link = card.select_one('a.overlay-link')
+            times = sorted({clock(text(a)) for a in card.select('.showtime-button-row a.showtime')})
+            if not title or not link or not times:
+                continue
+            still = card.select_one('.show-thumbnail')
+            image = re.search(r'url\((.*?)\)', still.get('style', '')) if still else None
+            found.append(row(v['id'], title, when, times, urljoin(base, link['href']),
+                             description=clean(text(card.select_one('.short-description'))),
+                             format=physical(title),
+                             imageUrl=image[1].strip('\'"') if image else None))
+        return found
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        rows = [r for days in pool.map(day, range(21)) for r in days]
     return rows
 
 def structured_events(v):
@@ -294,7 +300,7 @@ def structured_events(v):
 
 ADAPTERS = {'metrograph': metrograph, 'film-forum': film_forum, 'ifc': ifc, 'roxy': roxy,
             'quad': quad, 'anthology': anthology, 'bam': bam, 'paris': paris,
-            'light-industry': light_industry, 'lincoln': structured_events,
+            'nitehawk': nitehawk, 'lincoln': structured_events,
             'moma': structured_events, 'angelika': structured_events,
             'momi': structured_events, 'spectacle': structured_events}
 
@@ -343,7 +349,7 @@ def refresh():
     def one(v):
         try:
             raw = ADAPTERS[v['id']](v)
-            if not raw and v['id'] != 'light-industry': raise ValueError('No listings parsed; preserving last successful data')
+            if not raw: raise ValueError('No listings parsed; preserving last successful data')
             rows = normalize(raw)
             if raw and not rows: raise ValueError('Source has no current listings; preserving last successful data')
             status = 'partial' if v['id'] == 'paris' else 'ok'
