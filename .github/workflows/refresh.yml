@@ -1,0 +1,97 @@
+name: Refresh screenings and publish
+
+# Three ways in:
+#   schedule          — collect listings at 8:00 a.m. New York, then publish
+#   workflow_dispatch — the same, on demand, from the Actions tab
+#   push to main      — publish front-end edits without re-scraping the venues
+
+on:
+  schedule:
+    # GitHub cron is UTC only. 12:00 and 13:00 UTC bracket 8:00 a.m. New York
+    # across daylight saving; the gate step drops whichever run is not 8:00 local.
+    - cron: '0 12,13 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # commit the refreshed snapshot back to main
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gate to 8 a.m. New York
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=America/New_York date +%H)" = "08" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=false" >> "$GITHUB_OUTPUT"
+            echo "Not 8 a.m. in New York — this is the off-season half of the cron pair. Skipping."
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Install scraper dependencies
+        if: steps.gate.outputs.go == 'true'
+        run: python -m pip install --disable-pip-version-check -r scrapers/requirements.txt
+
+      - name: Collect listings
+        # A venue that fails keeps its last successful data; refresh.py handles that.
+        # TMDB_READ_TOKEN is optional — without it, TMDB still lookups are skipped.
+        if: steps.gate.outputs.go == 'true'
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: python scrapers/refresh.py
+
+      - name: Validate snapshot
+        # Corrupt data fails here and nothing is published.
+        if: steps.gate.outputs.go == 'true'
+        run: python scrapers/validate.py
+
+      - name: Commit snapshot
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data dist/stills
+          if git diff --cached --quiet; then
+            echo "Listings unchanged; nothing to commit."
+          else
+            git commit -m "Refresh screenings $(TZ=America/New_York date +'%Y-%m-%d')"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    # Runs after a successful refresh, and on its own for pushes to main
+    # (where the refresh job is skipped rather than run).
+    if: always() && needs.refresh.result != 'failure' && needs.refresh.result != 'cancelled'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main          # pick up the snapshot the refresh job just committed
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
