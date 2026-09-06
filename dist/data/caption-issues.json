@@ -1,21 +1,6 @@
 [
   {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": ""
-  },
-  {
-    "title": "The Treasure of Bitch Islands",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Private Event Today in Theater & Commissary",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Nenette and Boni",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -25,37 +10,12 @@
     "candidate": ""
   },
   {
-    "title": "The Night is Short, Walk on Girl",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Solaris",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Je Tu Il Elle",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "There Once Was a Singing Blackbird",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A psychologist confronts memories aboard a space station."
   },
   {
     "title": "Pastorale",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Wake in Fright",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Chungking Express",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -67,7 +27,7 @@
   {
     "title": "(whole batch)",
     "reason": "reply_shape_unrecognised",
-    "candidate": ""
+    "candidate": "```json { \"La Haine\": \"Youths rage against police\\nin a poor Paris suburb.\", \"Happy Together\": \"A couple's rocky romance\\nunravels in Buenos Aires.\", \"Chasing"
   },
   {
     "title": "La Haine",
@@ -132,7 +92,7 @@
   {
     "title": "(whole batch)",
     "reason": "reply_shape_unrecognised",
-    "candidate": ""
+    "candidate": "empty response {\"stop_reason\": \"max_tokens\", \"block_types\": [\"thinking\"], \"blocks\": 1, \"usage\": {\"input_tokens\": 1312, \"cache_creation_input_tokens\": 0, \"cache_read_input_tokens\": 0, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 0}, \"output_"
   },
   {
     "title": "Iphigenia",
@@ -197,7 +157,7 @@
   {
     "title": "(whole batch)",
     "reason": "reply_shape_unrecognised",
-    "candidate": ""
+    "candidate": "```json { \"Ryuichi Sakamoto: Coda (2017)\": \"A composer returns to music\\nafter facing his mortality.\", \"RoboCop - The Director's Cut (1987)\": \"A slain cop is rebuilt as\\na cyborg enforcer of justice.\", \"O Brother, Where Art Thou? (2000)\": \"Three convicts flee a chain\\ngang in search of treasure.\", \""
   },
   {
     "title": "Ryuichi Sakamoto: Coda",
@@ -260,11 +220,6 @@
     "candidate": ""
   },
   {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": ""
-  },
-  {
     "title": "High and Low",
     "reason": "no_reply",
     "candidate": ""
@@ -301,11 +256,6 @@
   },
   {
     "title": "The Foul King",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "National Theatre Live: Les Liaisons Dangereuses",
     "reason": "no_reply",
     "candidate": ""
   },
