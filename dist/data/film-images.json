@@ -2189,6 +2189,26 @@
       "url": "stills/8db5ba52e96342d9.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2023/04/07144352/juice-still.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/juice/?date=2026-09-26"
+    },
+    "https://www.roxycinemanewyork.com/screenings/1-800-hot-duck-thats-entertainment/": {
+      "url": "stills/7f09bd17513c241f.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/hot-duck-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/1-800-hot-duck-thats-entertainment/"
+    },
+    "https://quadcinema.com/film/atlantics/": {
+      "url": "stills/226a8393ab16e950.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/atlantique1-1400x840.jpg",
+      "sourcePage": "https://quadcinema.com/film/atlantics/"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/forbidden-planet/?date=2026-09-27": {
+      "url": "stills/c5904f43277bb803.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/08/20114437/forbidden-planet-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/forbidden-planet/?date=2026-09-27"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/juice/?date=2026-09-27": {
+      "url": "stills/8db5ba52e96342d9.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2023/04/07144352/juice-still.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/juice/?date=2026-09-27"
     }
   },
   "demoSources": {
