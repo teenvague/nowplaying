@@ -2209,6 +2209,21 @@
       "url": "stills/8db5ba52e96342d9.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2023/04/07144352/juice-still.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/juice/?date=2026-09-27"
+    },
+    "https://quadcinema.com/film/live-and-let-die/": {
+      "url": "stills/a8e60c23abd8e928.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/Live_and_Let_Die_011-1400x758.jpg",
+      "sourcePage": "https://quadcinema.com/film/live-and-let-die/"
+    },
+    "https://quadcinema.com/film/elephant/": {
+      "url": "stills/5d3b473a2f8bf0a0.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/elephant4.jpg",
+      "sourcePage": "https://quadcinema.com/film/elephant/"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/zeism-the-brooklyn-knight/?date=2026-09-28": {
+      "url": "stills/c3c15df9413447a5.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2025/07/08165749/zeism-still.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/zeism-the-brooklyn-knight/?date=2026-09-28"
     }
   },
   "demoSources": {
