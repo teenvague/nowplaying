@@ -2224,6 +2224,476 @@
       "url": "stills/c3c15df9413447a5.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2025/07/08165749/zeism-still.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/zeism-the-brooklyn-knight/?date=2026-09-28"
+    },
+    "https://filmforum.org/film/kwaidan-2026": {
+      "url": "stills/33b7b6a18df5ca0f.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/KWAIDAN_thumbnail_2026.png",
+      "sourcePage": "https://filmforum.org/film/kwaidan-2026"
+    },
+    "https://filmforum.org/film/9-11s-unsettled-dust": {
+      "url": "stills/1ac64ae41c2ec363.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/911s_UNSETTLED_DUST_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/9-11s-unsettled-dust"
+    },
+    "https://filmforum.org/film/on-the-town-ffjr-2026": {
+      "url": "stills/5c344805c9319932.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/ON_THE_TOWN_ffjr_thumbnail_.jpg",
+      "sourcePage": "https://filmforum.org/film/on-the-town-ffjr-2026"
+    },
+    "https://filmforum.org/film/the-incident-nyc-in-transit": {
+      "url": "stills/9c533a6d067f763f.jpg",
+      "sourceUrl": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/THE_INCIDENT_NYC_IN_TRANSIT_thumbnail.png",
+      "sourcePage": "https://filmforum.org/film/the-incident-nyc-in-transit"
+    },
+    "https://www.ifccenter.com/films/a-clockwork-orange/": {
+      "url": "stills/2fc74d37dd8285d5.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2017/01/CLOCKWORKORANGE.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/a-clockwork-orange/"
+    },
+    "https://www.ifccenter.com/films/stop-making-sense/": {
+      "url": "stills/5987dfebd357ac26.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2025/02/stopmakingsense.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/stop-making-sense/"
+    },
+    "https://www.ifccenter.com/films/mac-and-me/": {
+      "url": "stills/45646b8061b0b73e.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2018/06/macandme_1280.png",
+      "sourcePage": "https://www.ifccenter.com/films/mac-and-me/"
+    },
+    "https://www.ifccenter.com/films/michael-manns-manhunter-the-final-cut/": {
+      "url": "stills/f5d76678913f51a5.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/07/michaelmannsmanhunter.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/michael-manns-manhunter-the-final-cut/"
+    },
+    "https://www.ifccenter.com/films/who-moves-america-open-captioning/": {
+      "url": "stills/5be766256a38830e.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/whomovesamerica.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/who-moves-america-open-captioning/"
+    },
+    "https://www.ifccenter.com/films/who-moves-america/": {
+      "url": "stills/f6cd6770ac154f17.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/03/whomovesamericanew.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/who-moves-america/"
+    },
+    "https://www.ifccenter.com/films/soul-patrol/": {
+      "url": "stills/126cb6b2a87c0385.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/soulpatrol_web-49.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/soul-patrol/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/chronovisor/": {
+      "url": "stills/a9a110aa92b23ef1.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/chrono-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/chronovisor/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/wings-of-desire-2/": {
+      "url": "stills/74c4678d7e737bda.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2022/06/wings-of-desire-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/wings-of-desire-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-art-new-york-3-downtown-artists-robert-mapplethorpe-jean-michel-basquiat-and-nan-goldin-qa/": {
+      "url": "stills/59bee4b16b5e7676.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/ART-NEWYORK_CENTER-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-art-new-york-3-downtown-artists-robert-mapplethorpe-jean-michel-basquiat-and-nan-goldin-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-the-basics-of-philosophy-qa/": {
+      "url": "stills/d951b2025479c4ec.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/basics-of-philosophy-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-the-basics-of-philosophy-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-two-neighbors-qa/": {
+      "url": "stills/801641f5eefac248.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/two-neighbors-center-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-two-neighbors-qa/"
+    },
+    "https://www.bam.org/film/2026/resident-evil": {
+      "url": "stills/cdd9d26c44f4a8b7.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/0926/resident-evil.jpg",
+      "sourcePage": "https://www.bam.org/film/2026/resident-evil"
+    },
+    "https://quadcinema.com/film/anyone-lived-in-a-pretty-how-town/": {
+      "url": "stills/c4704b997e19ef10.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/09/ALIAPHT_00_01_27_15-1400x757.jpg",
+      "sourcePage": "https://quadcinema.com/film/anyone-lived-in-a-pretty-how-town/"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-11": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-11": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-11": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-11": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-11": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-11": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-11": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-11": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-11": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-11": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-11": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-11"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-12": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-12": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-12": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-12": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-12": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-12": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/paw-patrol-the-dino-movie/?date=2026-09-12": {
+      "url": "stills/ba198601923cd9ba.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/28100455/paw-patrol-dino-movie-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/paw-patrol-the-dino-movie/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-12": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-12": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-12": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-12": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-12": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-12"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-13": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-13": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-13": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-13": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-13": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-13": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/paw-patrol-the-dino-movie/?date=2026-09-13": {
+      "url": "stills/ba198601923cd9ba.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/28100455/paw-patrol-dino-movie-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/paw-patrol-the-dino-movie/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-13": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-13": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-13": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-13": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-13": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-13"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-14": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-14": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-14": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-14": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-14": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-14": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-14": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-14": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-14": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-14": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-14": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-15": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-15": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-15": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-15": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-15": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-15": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-15": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-15": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-15": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-15": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-15": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-15"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-16": {
+      "url": "stills/1501f28842e34108.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/07/08142422/the-end-of-oak-street-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-16": {
+      "url": "stills/6b0aa088218aa817.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/04104159/tony-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-16": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-16": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-16": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-16": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-16": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-16": {
+      "url": "stills/18320d6b1ab3084a.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/10120934/the-odyssey-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-16": {
+      "url": "stills/96f0e311050826b3.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2026/03/17103920/the-invite-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-16": {
+      "url": "stills/1217312aa30ca231.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/21111240/camp-miasma-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-16": {
+      "url": "stills/faaff3262eab562f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122544/onslaught-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=2026-09-16"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-17": {
+      "url": "stills/c4b0584827435311.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/04/17135721/spider-man-brand-new-day-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-17": {
+      "url": "stills/c4ca11e40674cc71.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08103342/the-uprising-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-17": {
+      "url": "stills/2e22dc956c557dda.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/11123228/coyote-vs-acme-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-17": {
+      "url": "stills/388ddecd715b8836.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122723/hope-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/hope/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-17": {
+      "url": "stills/be31b601ffe5d3fa.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/11122910/practical-magic-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/resident-evil-2026/?date=2026-09-17": {
+      "url": "stills/5a9a3bf6bbac5b27.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/06/30110201/resident-evil-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/resident-evil-2026/?date=2026-09-17"
+    },
+    "https://nitehawkcinema.com/prospectpark/showtimes/gotham-week-shorts-fault-lines-9-29-26-615-pm/?date=2026-09-29": {
+      "url": "stills/26ebc35f00cb0ea4.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08150630/gotham-week-shorts-2026-1-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/gotham-week-shorts-fault-lines-9-29-26-615-pm/?date=2026-09-29"
+    },
+    "https://nitehawkcinema.com/prospectpark/showtimes/gotham-week-shorts-against-the-current-9-29-26-915-pm/?date=2026-09-29": {
+      "url": "stills/dc93c1eabaa54a4e.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/08150635/gotham-week-shorts-2026-2-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/gotham-week-shorts-against-the-current-9-29-26-915-pm/?date=2026-09-29"
     }
   },
   "demoSources": {
