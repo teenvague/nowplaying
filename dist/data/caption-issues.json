@@ -6,8 +6,8 @@
   },
   {
     "title": "Left-Handed Girl",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_76",
+    "candidate": "A left-handed girl navigates a world\ndesigned for the right-handed majority."
   },
   {
     "title": "This Long Century Presents: Salomé Lamas",
@@ -35,6 +35,11 @@
     "candidate": ""
   },
   {
+    "title": "The Young Film Forum (YFF) Archive Dive: PIN: A PLASTIC NIGHTMARE",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Michael Mann's Manhunter: The Final Cut",
     "reason": "no_reply",
     "candidate": ""
@@ -45,7 +50,12 @@
     "candidate": ""
   },
   {
-    "title": "Soul Patrol",
+    "title": "The Kingdom",
+    "reason": "too_long_88",
+    "candidate": "A teenage girl joins her fugitive mob boss father\nin hiding on a remote Corsican island."
+  },
+  {
+    "title": "The History of Concrete",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -61,8 +71,8 @@
   },
   {
     "title": "Chronovisor",
-    "reason": "too_long_82",
-    "candidate": "A scholar investigating an occult memory\ndevice becomes obsessed with its secrets."
+    "reason": "too_long_84",
+    "candidate": "An academic researching memory becomes obsessed\nwith an occult device from the past."
   },
   {
     "title": "The Downtown Festival: ART/New York & 3 Downtown Artists + Q&A",
@@ -70,12 +80,17 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: The Basics of Philosophy + Q&A",
+    "title": "The Downtown Festival: Dwarf Neon Mayfield + Q&A",
+    "reason": "too_long_80",
+    "candidate": "A portrait follows people across the Kentucky\ncountryside after historic storms."
+  },
+  {
+    "title": "The Downtown Festival: L.I.E (25th Anniversary Screening) + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Two Neighbors + Q&A",
+    "title": "The Downtown Festival: The Joyless Economy + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -85,19 +100,9 @@
     "candidate": ""
   },
   {
-    "title": "Resident Evil",
-    "reason": "will_not_split_in_two",
-    "candidate": "A medical courier races for survival\nin a zombie-infested facility."
-  },
-  {
     "title": "anyone lived in a pretty how town",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Resident Evil (2026)",
-    "reason": "will_not_split_in_two",
-    "candidate": "A medical courier races for survival\nin a zombie-infested facility."
   },
   {
     "title": "Childhood Delusions Film Festival",
@@ -111,6 +116,11 @@
   },
   {
     "title": "NoBudge Live 52",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "FX’s Dear Mama",
     "reason": "no_reply",
     "candidate": ""
   }
