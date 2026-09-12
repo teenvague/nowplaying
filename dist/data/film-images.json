@@ -2799,6 +2799,31 @@
       "url": "stills/091a3e54a20b821b.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2018/04/18102436/Spoons-Toons-Film-Still.png",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/special_events/stb-after-dark-october-2026/?date=2026-10-01"
+    },
+    "https://www.ifccenter.com/films/the-vanishing-song/": {
+      "url": "stills/133cba61fc1f6284.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/08/thevanishingsong_film_still.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-vanishing-song/"
+    },
+    "https://www.ifccenter.com/films/arsa/": {
+      "url": "stills/c100e0cd8dbf2dad.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/arsa-7.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/arsa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-fest-the-mayflower-qa/": {
+      "url": "stills/8efe42469df35499.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/The-Mayflower-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-fest-the-mayflower-qa/"
+    },
+    "https://quadcinema.com/film/the-fisherman/": {
+      "url": "stills/6ee83a90af84d07e.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/The-Fisherman-stills-33-1400x689.jpg",
+      "sourcePage": "https://quadcinema.com/film/the-fisherman/"
+    },
+    "https://quadcinema.com/film/bad-apples/": {
+      "url": "stills/59c2cd78354af863.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/Bad-Apples_Image1-Saoirse_Class-1400x757.jpg",
+      "sourcePage": "https://quadcinema.com/film/bad-apples/"
     }
   },
   "demoSources": {

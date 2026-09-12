@@ -25,22 +25,7 @@
     "candidate": ""
   },
   {
-    "title": "9/11’s UNSETTLED DUST",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Young Film Forum (YFF) Archive Dive: PIN: A PLASTIC NIGHTMARE",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "2025 Sundance Film Festival Shorts Tour",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Michael Mann's Manhunter: The Final Cut",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -50,19 +35,14 @@
     "candidate": ""
   },
   {
-    "title": "The History of Concrete",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Knife: The Attempted Murder of Salman Rushdie",
+    "title": "Michael Mann's Manhunter: The Final Cut",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "Drinking and Driving + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_86",
+    "candidate": "Two women in their twenties confront the weight of never leaving their small hometown."
   },
   {
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
@@ -80,9 +60,9 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: The Joyless Economy + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "title": "The Downtown Fest: The Mayflower + Q&A",
+    "reason": "too_long_93",
+    "candidate": "An actor and director races against a heart diagnosis to complete what may be his final film."
   },
   {
     "title": "The Downtown Festival: Karishika",
@@ -100,9 +80,24 @@
     "candidate": ""
   },
   {
+    "title": "The Fisherman",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Bad Apples",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Childhood Delusions Film Festival",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json {} ```"
   },
   {
     "title": "The Best of Betty Boop",
