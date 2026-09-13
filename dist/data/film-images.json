@@ -2824,6 +2824,36 @@
       "url": "stills/59c2cd78354af863.jpg",
       "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/08/Bad-Apples_Image1-Saoirse_Class-1400x757.jpg",
       "sourcePage": "https://quadcinema.com/film/bad-apples/"
+    },
+    "https://www.ifccenter.com/films/knife-the-attempted-murder-of-salman-rushdie-ocap/": {
+      "url": "stills/a2554c2753141c46.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/kniferushdie-3.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/knife-the-attempted-murder-of-salman-rushdie-ocap/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-sitting-ducks-qa/": {
+      "url": "stills/5db4f92b0704b44d.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/Sitting-Ducks-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-sitting-ducks-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-let-them-be-seen-qa/": {
+      "url": "stills/b754a3072bd857d8.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/seen-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-let-them-be-seen-qa/"
+    },
+    "https://nitehawkcinema.com/prospectpark/showtimes/to-wong-foo-thanks-for-everything-julie-newmar-9-14-26-900-pm/?date=2026-09-14": {
+      "url": "stills/5d8d839abef24023.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2020/02/26150216/to-wong-foo-still1-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/to-wong-foo-thanks-for-everything-julie-newmar-9-14-26-900-pm/?date=2026-09-14"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-monster-squad/?date=2026-10-03": {
+      "url": "stills/053651aacae8feff.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2017/08/27214300/aqqgZ3R2D7PY9GtpglNSRDei6Wz-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-monster-squad/?date=2026-10-03"
+    },
+    "https://nitehawkcinema.com/prospectpark/special_events/stb-all-ages-oct-2026/?date=2026-10-03": {
+      "url": "stills/75239d8b789078e7.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2022/04/11122248/spoons-all-ages-still.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/special_events/stb-all-ages-oct-2026/?date=2026-10-03"
     }
   },
   "demoSources": {

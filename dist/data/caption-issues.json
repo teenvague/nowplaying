@@ -1,5 +1,10 @@
 [
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json { \"Faat Kiné\": \"A Senegalese woman builds her independence through\\nentrepreneurship and motherhood.\", \"Morvern Callar\": \"A young Scottish woman reimagines her life after\\nher boyfriend's sudden death.\", \"PIN: A PLASTIC NIGHTMARE\": \"A disturbed young man forms an obsessive bond\\nwith a life-sized anatomical dummy.\", \"Who Moves America\": \"A documentary examines the labor and logistics\\nbehind America's mobility.\", \"Knife: The Attempted Murder of Salman Rushdie\": \"A documentary recounts the attack on the author\\nand its reverberations.\", \"The Mayflower\": \"An actor-director confronts mortality by making\\nwhat might be his final film.\" } ```"
+  },
+  {
     "title": "Private Event Today in Theater & Commissary",
     "reason": "no_reply",
     "candidate": ""
@@ -35,14 +40,9 @@
     "candidate": ""
   },
   {
-    "title": "Michael Mann's Manhunter: The Final Cut",
+    "title": "Knife: The Attempted Murder of Salman Rushdie (Open Captioning)",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Drinking and Driving + Q&A",
-    "reason": "too_long_86",
-    "candidate": "Two women in their twenties confront the weight of never leaving their small hometown."
   },
   {
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
@@ -61,8 +61,18 @@
   },
   {
     "title": "The Downtown Fest: The Mayflower + Q&A",
-    "reason": "too_long_93",
-    "candidate": "An actor and director races against a heart diagnosis to complete what may be his final film."
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The Downtown Festival: Sitting Ducks + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The Downtown Festival: Let Them Be Seen + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Downtown Festival: Karishika",
@@ -75,29 +85,9 @@
     "candidate": ""
   },
   {
-    "title": "Checkout",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Fisherman",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Bad Apples",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Childhood Delusions Film Festival",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json {} ```"
   },
   {
     "title": "The Best of Betty Boop",
@@ -111,6 +101,11 @@
   },
   {
     "title": "Spoons Toons & Booze Halloween After Dark",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Spoons Toons All Ages Halloween",
     "reason": "no_reply",
     "candidate": ""
   }
