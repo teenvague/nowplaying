@@ -2,7 +2,7 @@
   {
     "title": "(whole batch)",
     "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Faat Kiné\": \"A Senegalese woman builds her independence through\\nentrepreneurship and motherhood.\", \"Morvern Callar\": \"A young Scottish woman reimagines her life after\\nher boyfriend's sudden death.\", \"PIN: A PLASTIC NIGHTMARE\": \"A disturbed young man forms an obsessive bond\\nwith a life-sized anatomical dummy.\", \"Who Moves America\": \"A documentary examines the labor and logistics\\nbehind America's mobility.\", \"Knife: The Attempted Murder of Salman Rushdie\": \"A documentary recounts the attack on the author\\nand its reverberations.\", \"The Mayflower\": \"An actor-director confronts mortality by making\\nwhat might be his final film.\" } ```"
+    "candidate": "json error: Invalid control character at: line 2 column 64 (char 65); ```json { \"Faat Kiné\": \"A Senegalese woman builds her life and business on her own terms.\", \"Morvern Callar\": \"A young woman improvises a new life after a devastating loss.\", \"PIN: A PLASTIC NIGHTMARE\": \"A disturbed young man forms an obsession with a life-size doll.\", \"Who Moves America\": \"American workers stake claims to economic power and mobility.\", \"Knife: The Attempted Murder of Salman Rushdie\": \"An assassin's attack on a celebrated author reverberates across decades.\", \"The Mayflower\": \"An actor-director confronts mortality by making a final film.\" } ```"
   },
   {
     "title": "Private Event Today in Theater & Commissary",
@@ -63,6 +63,11 @@
     "title": "The Downtown Fest: The Mayflower + Q&A",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json { \"Sitting Ducks\": \"Two small-time thieves pursue their\\nchildhood dreams as an unlikely duo.\", \"Let Them Be Seen\": \"A new religion takes hold in a\\nsmall South African border village.\" } ```"
   },
   {
     "title": "The Downtown Festival: Sitting Ducks + Q&A",
