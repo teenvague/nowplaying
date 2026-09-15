@@ -1,13 +1,23 @@
 [
   {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "json error: Invalid control character at: line 2 column 64 (char 65); ```json { \"Faat Kiné\": \"A Senegalese woman builds her life and business on her own terms.\", \"Morvern Callar\": \"A young woman improvises a new life after a devastating loss.\", \"PIN: A PLASTIC NIGHTMARE\": \"A disturbed young man forms an obsession with a life-size doll.\", \"Who Moves America\": \"American workers stake claims to economic power and mobility.\", \"Knife: The Attempted Murder of Salman Rushdie\": \"An assassin's attack on a celebrated author reverberates across decades.\", \"The Mayflower\": \"An actor-director confronts mortality by making a final film.\" } ```"
-  },
-  {
     "title": "Private Event Today in Theater & Commissary",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "Spider Baby",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "American Job",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Eve's Bayou",
+    "reason": "too_long_78",
+    "candidate": "A girl's discovery of family secrets\nripples through generations in Louisiana."
   },
   {
     "title": "This Long Century Presents: Salomé Lamas",
@@ -30,7 +40,62 @@
     "candidate": ""
   },
   {
+    "title": "Socrates",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Bread Day preceded by The Train Stop",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Mermaids",
+    "reason": "will_not_split_in_two",
+    "candidate": "A restless mother and her daughters\nsettle into a new town in 1963."
+  },
+  {
+    "title": "Trains, Children & Dreams: A Shorts Program",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The Enchanted Desna",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Arsenal",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Shchors",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Zvenygora",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Aerograd",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Ivan",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "The Young Film Forum (YFF) Archive Dive: PIN: A PLASTIC NIGHTMARE",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -41,6 +106,16 @@
   },
   {
     "title": "Knife: The Attempted Murder of Salman Rushdie (Open Captioning)",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Critics & Filmmakers: A Conversation between Godfrey Cheshire & Alex Winter",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Fast Food Nation + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -65,17 +140,12 @@
     "candidate": ""
   },
   {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Sitting Ducks\": \"Two small-time thieves pursue their\\nchildhood dreams as an unlikely duo.\", \"Let Them Be Seen\": \"A new religion takes hold in a\\nsmall South African border village.\" } ```"
-  },
-  {
     "title": "The Downtown Festival: Sitting Ducks + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Let Them Be Seen + Q&A",
+    "title": "The Downtown Festival: Big Break + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
