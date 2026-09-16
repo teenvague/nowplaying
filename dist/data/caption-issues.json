@@ -5,21 +5,6 @@
     "candidate": ""
   },
   {
-    "title": "Spider Baby",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "American Job",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Eve's Bayou",
-    "reason": "too_long_78",
-    "candidate": "A girl's discovery of family secrets\nripples through generations in Louisiana."
-  },
-  {
     "title": "This Long Century Presents: Salomé Lamas",
     "reason": "no_reply",
     "candidate": ""
@@ -40,19 +25,9 @@
     "candidate": ""
   },
   {
-    "title": "Socrates",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Bread Day preceded by The Train Stop",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Mermaids",
-    "reason": "will_not_split_in_two",
-    "candidate": "A restless mother and her daughters\nsettle into a new town in 1963."
   },
   {
     "title": "Trains, Children & Dreams: A Shorts Program",
@@ -65,29 +40,14 @@
     "candidate": ""
   },
   {
-    "title": "Arsenal",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Shchors",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A Red Army commander leads his troops through the Russian Civil War."
   },
   {
     "title": "Zvenygora",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Aerograd",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Ivan",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A family saga unfolds across generations in the Ukrainian landscape."
   },
   {
     "title": "The Young Film Forum (YFF) Archive Dive: PIN: A PLASTIC NIGHTMARE",
@@ -100,7 +60,7 @@
     "candidate": ""
   },
   {
-    "title": "Who Moves America (Open Captioning)",
+    "title": "The “El” Seen by Kirchheimer, Brakhage, & Pennebaker",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -110,7 +70,17 @@
     "candidate": ""
   },
   {
+    "title": "Who Moves America (Open Captioning)",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Critics & Filmmakers: A Conversation between Godfrey Cheshire & Alex Winter",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Steal This Story, Please!",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -150,37 +120,67 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Karishika",
+    "title": "The Downtown Festival: Galicia! + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "anyone lived in a pretty how town",
+    "title": "The Downtown Festival: Signals in the Distance + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "Childhood Delusions Film Festival",
+    "title": "The Downtown Festival: Fellas + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The Best of Betty Boop",
+    "title": "The Downtown Festival: The Story of Eve + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "NoBudge Live 52",
+    "title": "The Downtown Festival: The Water is Always Warm + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "Spoons Toons & Booze Halloween After Dark",
+    "title": "The Downtown Festival: Amoeba + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "Spoons Toons All Ages Halloween",
+    "title": "The Downtown Festival: Karishika + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Joy of Joys",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Bardi",
+    "reason": "will_not_split_in_two",
+    "candidate": "Horse-riders navigate the rugged fraternal\nworld of central Morocco."
+  },
+  {
+    "title": "Everything Else is Noise",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "What Can’t Be Mentioned + Sounds From Home",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Fatherland",
+    "reason": "will_not_split_in_two",
+    "candidate": "Novelist Thomas Mann and his daughter\nembark on a postwar road trip."
+  },
+  {
+    "title": "Clarissa",
     "reason": "no_reply",
     "candidate": ""
   }
