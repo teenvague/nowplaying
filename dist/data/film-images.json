@@ -3519,6 +3519,16 @@
       "url": "stills/fdeea8141f132635.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/08/25100559/primetime-still-1000x600.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/primetime/?date=2026-09-24"
+    },
+    "https://www.ifccenter.com/films/take-me-home/": {
+      "url": "stills/8a430498a6abaced.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/takemehome-9.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/take-me-home/"
+    },
+    "https://nitehawkcinema.com/prospectpark/showtimes/attack-the-block-10-7-26-915-pm/?date=2026-10-07": {
+      "url": "stills/f49ef88349348a87.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2023/01/27140605/attack-the-block-still.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/attack-the-block-10-7-26-915-pm/?date=2026-10-07"
     }
   },
   "demoSources": {
