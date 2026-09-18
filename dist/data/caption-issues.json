@@ -1,10 +1,5 @@
 [
   {
-    "title": "Private Event Today in Theater & Commissary",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "This Long Century Presents: Salomé Lamas",
     "reason": "no_reply",
     "candidate": ""
@@ -45,6 +40,11 @@
     "candidate": ""
   },
   {
+    "title": "The Scout",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Who Moves America (Open Captioning)",
     "reason": "no_reply",
     "candidate": ""
@@ -55,27 +55,7 @@
     "candidate": ""
   },
   {
-    "title": "Steal This Story, Please!",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Downtown Festival: ART/New York & 3 Downtown Artists + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Downtown Festival: Beyond the Threshold - Selection of Short Films",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Downtown Festival: Big Break + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -91,18 +71,8 @@
   },
   {
     "title": "The Downtown Festival: Fellas + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Downtown Festival: The Story of Eve + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Downtown Festival: The Water is Always Warm + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_74",
+    "candidate": "A dumped man finds an apartment with a friend in NYC's worst neighborhood."
   },
   {
     "title": "The Downtown Festival: Amoeba + Q&A",
@@ -110,32 +80,22 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Karishika + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "title": "The Downtown Festival: Dissolutions: Selection of Short Films",
+    "reason": "too_long_79",
+    "candidate": "Works explore the crossing into states that\nfeel just outside ordinary reality."
   },
   {
     "title": "Joy of Joys",
-    "reason": "too_long_73",
-    "candidate": "A documentary follows the recording\nof a War Child Records charity album."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "What Can’t Be Mentioned + Sounds From Home",
-    "reason": "will_not_split_in_two",
-    "candidate": "A social worker in training examines\nher own psychological issues."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Clarissa",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "anyone lived in a pretty how town",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Childhood Delusions Film Festival",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -146,11 +106,6 @@
   },
   {
     "title": "NoBudge Live 52",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Primetime",
     "reason": "no_reply",
     "candidate": ""
   },
