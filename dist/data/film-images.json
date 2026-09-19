@@ -3554,6 +3554,41 @@
       "url": "stills/f5c23de5575ba7c1.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/15104919/the-color-of-money-still-1000x600.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/the-color-of-money-10-6-26-845-pm/?date=2026-10-06"
+    },
+    "https://www.ifccenter.com/films/steel-magnolias/": {
+      "url": "stills/98db74c3d3157b0f.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/steel-magnolias.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/steel-magnolias/"
+    },
+    "https://www.ifccenter.com/films/9-to-5/": {
+      "url": "stills/b98cf28a4ab7ac75.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/9to5.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/9-to-5/"
+    },
+    "https://www.ifccenter.com/films/the-best-little-whorehouse-in-texas-2/": {
+      "url": "stills/362539b269d47b09.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/bestlittlewhorehouse.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-best-little-whorehouse-in-texas-2/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-sensing-systems-works-by-andrew-norman-wilson-and-jonah-freeman/": {
+      "url": "stills/0f0801d3f14ff835.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/sensing-systems-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-sensing-systems-works-by-andrew-norman-wilson-and-jonah-freeman/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-the-projectionist-qa/": {
+      "url": "stills/9c4e8a38f8b44d68.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/The-Projectionist-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-the-projectionist-qa/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/miss-me-yet-qa/": {
+      "url": "stills/48cbfa7c78bcb4e4.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/miss-me-yet-1500x900-1.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/miss-me-yet-qa/"
+    },
+    "https://quadcinema.com/film/the-rocky-horror-picture-show-shadowcast/": {
+      "url": "stills/085bc7bc883d871d.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2024/04/rocky_horror_image_3-1400x788.jpg",
+      "sourcePage": "https://quadcinema.com/film/the-rocky-horror-picture-show-shadowcast/"
     }
   },
   "demoSources": {

@@ -55,6 +55,11 @@
     "candidate": ""
   },
   {
+    "title": "The Best Little Whorehouse in Texas",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
     "reason": "no_reply",
     "candidate": ""
@@ -70,19 +75,24 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Fellas + Q&A",
-    "reason": "too_long_74",
-    "candidate": "A dumped man finds an apartment with a friend in NYC's worst neighborhood."
+    "title": "The Downtown Festival: Sensing Systems: Works by Andrew Norman Wilson and Jonah Freeman",
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Amoeba + Q&A",
+    "title": "The Downtown Festival: Fellas + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "The Downtown Festival: Dissolutions: Selection of Short Films",
-    "reason": "too_long_79",
-    "candidate": "Works explore the crossing into states that\nfeel just outside ordinary reality."
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Miss Me Yet + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "Joy of Joys",
@@ -91,16 +101,11 @@
   },
   {
     "title": "What Can’t Be Mentioned + Sounds From Home",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_82",
+    "candidate": "An expatriate contends with displacement and family secrets across two continents."
   },
   {
-    "title": "Clarissa",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "The Best of Betty Boop",
+    "title": "The Rocky Horror Picture Show: Live Shadow Cast",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -116,11 +121,6 @@
   },
   {
     "title": "Spoons Toons All Ages Halloween",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Attack the Block",
     "reason": "no_reply",
     "candidate": ""
   }
