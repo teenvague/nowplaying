@@ -1,5 +1,10 @@
 [
   {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json { \"Faat Kiné\": \"A Senegalese woman builds her own business and life on her own terms.\", \"Morvern Callar\": \"A young woman appropriates her dead lover's unreleased music as her own.\", \"The Train Stop\": \"A camera observes the small rituals of passengers waiting at a rural platform.\", \"Who Moves America\": \"A film explores the labor and logistics of American movement and infrastructure.\" } ```"
+  },
+  {
     "title": "This Long Century Presents: Salomé Lamas",
     "reason": "no_reply",
     "candidate": ""
@@ -26,26 +31,6 @@
   },
   {
     "title": "Trains, Children & Dreams: A Shorts Program",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Minority Report",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Paris Was a Woman",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Medea (1988)",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Art Cinema for Tots: How to Play a Film",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -78,6 +63,11 @@
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json { \"Signals in the Distance\": \"People at society's margins search for connection and belonging.\", \"Fellas\": \"A newly single man navigates life in New York with his roommate.\", \"Tár\": \"A renowned conductor's dominance in classical music faces reckoning.\" } ```"
   },
   {
     "title": "The Downtown Festival: Galicia! + Q&A",
@@ -116,11 +106,6 @@
   },
   {
     "title": "In Spite of Ourselves",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "NoBudge Live 52",
     "reason": "no_reply",
     "candidate": ""
   },
