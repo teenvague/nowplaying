@@ -30,12 +30,17 @@
     "candidate": ""
   },
   {
-    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "title": "All the President's Men",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The “El” Seen by Kirchheimer, Brakhage, & Pennebaker",
+    "title": "Art Cinema for Tots: How to Play a Film",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -50,7 +55,7 @@
     "candidate": ""
   },
   {
-    "title": "Who Moves America (Open Captioning)",
+    "title": "Pretty in Pink x Straight White Men Can't Dance",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -71,11 +76,16 @@
   },
   {
     "title": "The Downtown Festival: Fellas + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_72",
+    "candidate": "A recently dumped man finds an apartment with a friend in New York City."
   },
   {
     "title": "The Downtown Festival: Surfaces and the Self: Selection of Short Films",
+    "reason": "too_long_72",
+    "candidate": "A collection explores identity, performance, and the roles people adopt."
+  },
+  {
+    "title": "The Downtown Festival Amos Poe: Unmade",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -95,29 +105,29 @@
     "candidate": ""
   },
   {
+    "title": "Naza",
+    "reason": "too_long_80",
+    "candidate": "A documentary examines the systems behind\nIsrael's mass killing of Palestinians."
+  },
+  {
     "title": "Castration Movie Chapter iii. Junior Ghosts—Premorphic Drift; a fragmentary passage",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The Marching Band",
+    "title": "Calle Cuba",
     "reason": "will_not_split_in_two",
-    "candidate": "A conductor meets the cafeteria worker\nbrother he never knew he had."
+    "candidate": "Four women embody the resilience and fragility\nof Cuba's Old Havana."
   },
   {
-    "title": "American Doctor",
-    "reason": "will_not_split_in_two",
-    "candidate": "Three physicians of different faiths\nare bound by an oath to heal."
+    "title": "Les Vagues dans les yeux (Waves in the Eyes)",
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Rocky Horror Picture Show: Live Shadow Cast",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Heart of the Beast",
-    "reason": "will_not_split_in_two",
-    "candidate": "A former soldier survives the harsh\nAlaskan wilderness with his dog."
   },
   {
     "title": "Spoons Toons & Booze Halloween After Dark",
