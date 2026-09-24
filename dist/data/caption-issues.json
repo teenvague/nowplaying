@@ -30,11 +30,6 @@
     "candidate": ""
   },
   {
-    "title": "All the President's Men",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Art Cinema for Tots: How to Play a Film",
     "reason": "no_reply",
     "candidate": ""
@@ -60,7 +55,22 @@
     "candidate": ""
   },
   {
+    "title": "Naza",
+    "reason": "will_not_split_in_two",
+    "candidate": "Israeli operatives reveal the systems\nbehind mass killing in Gaza."
+  },
+  {
+    "title": "The Last First: Winter K2",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Lakeview Terrace + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -76,13 +86,13 @@
   },
   {
     "title": "The Downtown Festival: Fellas + Q&A",
-    "reason": "too_long_72",
-    "candidate": "A recently dumped man finds an apartment with a friend in New York City."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Downtown Festival: Surfaces and the Self: Selection of Short Films",
-    "reason": "too_long_72",
-    "candidate": "A collection explores identity, performance, and the roles people adopt."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Downtown Festival Amos Poe: Unmade",
@@ -90,7 +100,22 @@
     "candidate": ""
   },
   {
+    "title": "Prison (excerpt) + Who Are You Dorothy Dean? Book Launch and Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Dead Media + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Miss Me Yet + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Leila and the Wolves | Presented by Miss Video 4 U",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -105,19 +130,9 @@
     "candidate": ""
   },
   {
-    "title": "Naza",
-    "reason": "too_long_80",
-    "candidate": "A documentary examines the systems behind\nIsrael's mass killing of Palestinians."
-  },
-  {
     "title": "Castration Movie Chapter iii. Junior Ghosts—Premorphic Drift; a fragmentary passage",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Calle Cuba",
-    "reason": "will_not_split_in_two",
-    "candidate": "Four women embody the resilience and fragility\nof Cuba's Old Havana."
   },
   {
     "title": "Les Vagues dans les yeux (Waves in the Eyes)",
@@ -138,5 +153,10 @@
     "title": "Spoons Toons All Ages Halloween",
     "reason": "no_reply",
     "candidate": ""
+  },
+  {
+    "title": "Edie Arnold Is a Loser",
+    "reason": "too_long_76",
+    "candidate": "A timid dork in a punk band becomes\nan unlikely icon at her Catholic school."
   }
 ]
