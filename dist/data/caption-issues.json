@@ -35,11 +35,6 @@
     "candidate": ""
   },
   {
-    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Scout",
     "reason": "no_reply",
     "candidate": ""
@@ -53,11 +48,6 @@
     "title": "Pretty in Pink x Straight White Men Can't Dance",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Naza",
-    "reason": "will_not_split_in_two",
-    "candidate": "Israeli operatives reveal the systems\nbehind mass killing in Gaza."
   },
   {
     "title": "The Last First: Winter K2",
@@ -86,6 +76,11 @@
   },
   {
     "title": "The Downtown Festival: Fellas + Q&A",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "The Downtown Festival: Chelsea Walls + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -135,11 +130,6 @@
     "candidate": ""
   },
   {
-    "title": "Les Vagues dans les yeux (Waves in the Eyes)",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Rocky Horror Picture Show: Live Shadow Cast",
     "reason": "no_reply",
     "candidate": ""
@@ -155,8 +145,18 @@
     "candidate": ""
   },
   {
+    "title": "A Brooklyn Dream",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
     "title": "Edie Arnold Is a Loser",
-    "reason": "too_long_76",
-    "candidate": "A timid dork in a punk band becomes\nan unlikely icon at her Catholic school."
+    "reason": "will_not_split_in_two",
+    "candidate": "A shy punk musician becomes an unlikely\nicon at her Catholic school."
+  },
+  {
+    "title": "Kevin Geeks Out About Creepy Kids",
+    "reason": "no_reply",
+    "candidate": ""
   }
 ]

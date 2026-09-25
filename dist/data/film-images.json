@@ -4109,6 +4109,36 @@
       "url": "stills/a1ded2f979f72c97.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/21132823/edie-arnold-is-a-loser-still-1000x600.jpg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/edie-arnold-is-a-loser-10-14-26-645-pm/?date=2026-10-14"
+    },
+    "https://www.ifccenter.com/films/begotten/": {
+      "url": "stills/e3bb41822b77522f.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/begotten-10.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/begotten/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-chelsea-walls-qa/": {
+      "url": "stills/0c16778deb80ec30.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/CHELSEA-WALLS-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-chelsea-walls-qa/"
+    },
+    "https://www.bam.org/film/2026/the-devils": {
+      "url": "stills/f53cbffb2d9bf89d.jpg",
+      "sourceUrl": "https://www.bam.org/globalassets/programs/cinema/2027fy/1026/ken-russell_s-the-devils.jpeg",
+      "sourcePage": "https://www.bam.org/film/2026/the-devils"
+    },
+    "https://quadcinema.com/film/digger-2026/": {
+      "url": "stills/e36ec9d0e4b54b91.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/09/digger4.avif",
+      "sourcePage": "https://quadcinema.com/film/digger-2026/"
+    },
+    "https://nitehawkcinema.com/prospectpark/showtimes/a-brooklyn-dream-10-8-26-700-pm/?date=2026-10-08": {
+      "url": "stills/a7941a3c6e0aea36.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/24092654/a-brooklyn-dream-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/showtimes/a-brooklyn-dream-10-8-26-700-pm/?date=2026-10-08"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/kgo-creepy-kids/?date=2026-10-15": {
+      "url": "stills/f2dd331f980f1318.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/17090754/kgo-creepy-kids-still-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/kgo-creepy-kids/?date=2026-10-15"
     }
   },
   "demoSources": {
