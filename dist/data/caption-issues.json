@@ -1,10 +1,5 @@
 [
   {
-    "title": "Eddington",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Jollof Films Presents: Faat Kiné",
     "reason": "no_reply",
     "candidate": ""
@@ -45,14 +40,9 @@
     "candidate": ""
   },
   {
-    "title": "All We Imagine as Light",
-    "reason": "will_not_split_in_two",
-    "candidate": "Two women working as nurses navigate\nlove and ambition together."
-  },
-  {
     "title": "Nous (We)",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_83",
+    "candidate": "A filmmaker explores French identity through encounters across class and geography."
   },
   {
     "title": "La Raulito",
@@ -60,14 +50,9 @@
     "candidate": ""
   },
   {
-    "title": "Vera",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "The Gorgon",
-    "reason": "will_not_split_in_two",
-    "candidate": "A creature with a fatal gaze terrorizes\na remote German village."
+    "reason": "too_long_88",
+    "candidate": "A creature from Greek mythology brings death\nto a German village through her fatal gaze."
   },
   {
     "title": "You Had to Be There",
@@ -96,8 +81,8 @@
   },
   {
     "title": "Lakeview Terrace + Q&A",
-    "reason": "too_long_76",
-    "candidate": "A bigoted L.A.P.D. officer wages a campaign of terror against his neighbors."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Downtown Festival: Galicia! + Q&A",
@@ -116,8 +101,8 @@
   },
   {
     "title": "The Downtown Festival: Chelsea Walls + Q&A",
-    "reason": "too_long_89",
-    "candidate": "Artists and dreamers navigate ambition and desire over a single day at a legendary hotel."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "The Downtown Festival: Surfaces and the Self: Selection of Short Films",
@@ -133,11 +118,6 @@
     "title": "Prison (excerpt) + Who Are You Dorothy Dean? Book Launch and Q&A",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Dead Media + Q&A",
-    "reason": "too_long_84",
-    "candidate": "A haunted DVD traps a troubled woman and her lonely uncle in an endless movie night."
   },
   {
     "title": "On the Relentless Destruction of Beauty: Short Housing Films + Q&A",
@@ -161,8 +141,8 @@
   },
   {
     "title": "Dinner With Friends + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_82",
+    "candidate": "Eight friends struggle to maintain their bond as adulthood complicates everything."
   },
   {
     "title": "What Can’t Be Mentioned + Sounds From Home",
@@ -180,17 +160,42 @@
     "candidate": ""
   },
   {
-    "title": "La Gradiva",
-    "reason": "too_long_70",
-    "candidate": "A young traveler confronts a world suspended between past and present."
-  },
-  {
     "title": "Dolly Double Feature: Steel Magnolias",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "Shorts: Black Queer Pride NY",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Shorts: Transmissions",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "In Spite of Ourselves",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Spoons Toons & Booze Halloween After Dark",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Spoons Toons All Ages Halloween",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "A Brooklyn Dream",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Kevin Geeks Out About Creepy Kids",
     "reason": "no_reply",
     "candidate": ""
   }
