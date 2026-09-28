@@ -1,20 +1,5 @@
 [
   {
-    "title": "Jollof Films Presents: Faat Kiné",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Fireflies Press Presents: Morvern Callar",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Bread Day preceded by The Train Stop",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Trains, Children & Dreams: A Shorts Program",
     "reason": "no_reply",
     "candidate": ""
@@ -25,24 +10,9 @@
     "candidate": ""
   },
   {
-    "title": "Virgina",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Something Special (Willy/Milly)",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "ACE Presents: Rosemary's Baby",
     "reason": "no_reply",
     "candidate": ""
-  },
-  {
-    "title": "Nous (We)",
-    "reason": "too_long_83",
-    "candidate": "A filmmaker explores French identity through encounters across class and geography."
   },
   {
     "title": "La Raulito",
@@ -50,17 +20,12 @@
     "candidate": ""
   },
   {
-    "title": "The Gorgon",
-    "reason": "too_long_88",
-    "candidate": "A creature from Greek mythology brings death\nto a German village through her fatal gaze."
-  },
-  {
-    "title": "You Had to Be There",
+    "title": "The Scout",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "The Scout",
+    "title": "You Had to Be There",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -110,14 +75,14 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival Amos Poe: Unmade",
+    "title": "Prison (excerpt) + Who Are You Dorothy Dean? Book Launch and Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
   {
-    "title": "Prison (excerpt) + Who Are You Dorothy Dean? Book Launch and Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "title": "(whole batch)",
+    "reason": "reply_shape_unrecognised",
+    "candidate": "```json { \"Leila and the Wolves\": \"A woman rewrites Arab history through\\nfiction, footage, and fantasy.\", \"Tár\": \"A renowned composer-conductor navigates\\npower in the classical music world.\", \"Dinner With Friends\": \"Eight friends struggle to maintain their\\nbond as adulthood complicates everything.\", \"Steel Magnolias\": \"Women in a small Louisiana town face\\nlove, loss, and deep friendship.\" } ```"
   },
   {
     "title": "On the Relentless Destruction of Beauty: Short Housing Films + Q&A",
@@ -141,8 +106,8 @@
   },
   {
     "title": "Dinner With Friends + Q&A",
-    "reason": "too_long_82",
-    "candidate": "Eight friends struggle to maintain their bond as adulthood complicates everything."
+    "reason": "no_reply",
+    "candidate": ""
   },
   {
     "title": "What Can’t Be Mentioned + Sounds From Home",
@@ -186,11 +151,6 @@
   },
   {
     "title": "Spoons Toons All Ages Halloween",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "A Brooklyn Dream",
     "reason": "no_reply",
     "candidate": ""
   },

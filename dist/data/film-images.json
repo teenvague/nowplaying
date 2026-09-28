@@ -5009,6 +5009,21 @@
       "url": "stills/6b9975f43ec4b77f.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2018/08/31112612/addamsfamily-still-1000x600.jpeg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-addams-family/?date=2026-10-17"
+    },
+    "https://www.ifccenter.com/films/no-skin-off-my-ass/": {
+      "url": "stills/8086afbf75dc9025.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2024/03/noskinoffmyass.jpe",
+      "sourcePage": "https://www.ifccenter.com/films/no-skin-off-my-ass/"
+    },
+    "https://www.ifccenter.com/films/super-8-1-2/": {
+      "url": "stills/7fcb0e97e0074415.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/super812-1.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/super-8-1-2/"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/the-addams-family/?date=2026-10-18": {
+      "url": "stills/6b9975f43ec4b77f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2018/08/31112612/addamsfamily-still-1000x600.jpeg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-addams-family/?date=2026-10-18"
     }
   },
   "demoSources": {
