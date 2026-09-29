@@ -5024,6 +5024,46 @@
       "url": "stills/6b9975f43ec4b77f.jpg",
       "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2018/08/31112612/addamsfamily-still-1000x600.jpeg",
       "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/the-addams-family/?date=2026-10-18"
+    },
+    "https://www.ifccenter.com/films/the-exorcist/": {
+      "url": "stills/194e7c9a3734905e.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2025/09/the-exorcist.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/the-exorcist/"
+    },
+    "https://www.ifccenter.com/films/spring-breakers-2/": {
+      "url": "stills/ba7f0731d577a4ce.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/springbreakers.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/spring-breakers-2/"
+    },
+    "https://www.ifccenter.com/films/hereditary-x-monstrous-bitch/": {
+      "url": "stills/e46bec98b3befde9.jpg",
+      "sourceUrl": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2026/09/hereditarymonstrousbitch-6.jpg",
+      "sourcePage": "https://www.ifccenter.com/films/hereditary-x-monstrous-bitch/"
+    },
+    "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-little-miss-sun-sign-qa/": {
+      "url": "stills/8badb9d0ac978c6c.jpg",
+      "sourceUrl": "https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2026/09/LITTLE-MISS-SUN-SIGN-1500.jpg",
+      "sourcePage": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-little-miss-sun-sign-qa/"
+    },
+    "https://quadcinema.com/film/orion/": {
+      "url": "stills/4066e8a1807fb8ba.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/09/orion1-1400x788.png",
+      "sourcePage": "https://quadcinema.com/film/orion/"
+    },
+    "https://quadcinema.com/film/deep-red/": {
+      "url": "stills/770909dde7ab6c40.jpg",
+      "sourceUrl": "https://quadcinema.com/wp-content/uploads/2026/09/deep6.jpg",
+      "sourcePage": "https://quadcinema.com/film/deep-red/"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/indigo-elsewhere/?date=2026-10-19": {
+      "url": "stills/5bb61f123cb26d0f.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/15142701/0MAIN_INDIGOELSEWHERE-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/indigo-elsewhere/?date=2026-10-19"
+    },
+    "https://nitehawkcinema.com/prospectpark/movies/sinner-supper-club/?date=2026-10-19": {
+      "url": "stills/d6e584f7f395f64b.jpg",
+      "sourceUrl": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2026/09/15142706/0MAIN_SINNERSUPPERCLUB-1000x600.jpg",
+      "sourcePage": "https://nitehawkcinema.com/prospectpark/movies/sinner-supper-club/?date=2026-10-19"
     }
   },
   "demoSources": {

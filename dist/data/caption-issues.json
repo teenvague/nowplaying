@@ -15,17 +15,12 @@
     "candidate": ""
   },
   {
-    "title": "La Raulito",
+    "title": "You Had to Be There",
     "reason": "no_reply",
     "candidate": ""
   },
   {
     "title": "The Scout",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "You Had to Be There",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -40,7 +35,7 @@
     "candidate": ""
   },
   {
-    "title": "1-800-Hot-Duck X Fugue Spa: “Thats Entertainment!”",
+    "title": "Hereditary x Monstrous Bitch",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -55,14 +50,14 @@
     "candidate": ""
   },
   {
-    "title": "The Downtown Festival: Signals in the Distance + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "title": "The Downtown Festival: Little Miss Sun Sign + Q&A",
+    "reason": "too_long_79",
+    "candidate": "A man attempts to explain astrology while circled by an ever-changing audience."
   },
   {
     "title": "The Downtown Festival: Fellas + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_88",
+    "candidate": "Two friends navigate life together after one's breakup in a rough New York neighborhood."
   },
   {
     "title": "The Downtown Festival: Chelsea Walls + Q&A",
@@ -71,21 +66,11 @@
   },
   {
     "title": "The Downtown Festival: Surfaces and the Self: Selection of Short Films",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_90",
+    "candidate": "People perform identity and desire through the roles they adopt for themselves and others."
   },
   {
     "title": "Prison (excerpt) + Who Are You Dorothy Dean? Book Launch and Q&A",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "(whole batch)",
-    "reason": "reply_shape_unrecognised",
-    "candidate": "```json { \"Leila and the Wolves\": \"A woman rewrites Arab history through\\nfiction, footage, and fantasy.\", \"Tár\": \"A renowned composer-conductor navigates\\npower in the classical music world.\", \"Dinner With Friends\": \"Eight friends struggle to maintain their\\nbond as adulthood complicates everything.\", \"Steel Magnolias\": \"Women in a small Louisiana town face\\nlove, loss, and deep friendship.\" } ```"
-  },
-  {
-    "title": "On the Relentless Destruction of Beauty: Short Housing Films + Q&A",
     "reason": "no_reply",
     "candidate": ""
   },
@@ -95,24 +80,9 @@
     "candidate": ""
   },
   {
-    "title": "Leila and the Wolves | Presented by Miss Video 4 U",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Tár + Live Performance | Instruments of Desire",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
     "title": "Dinner With Friends + Q&A",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "What Can’t Be Mentioned + Sounds From Home",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "too_long_88",
+    "candidate": "Eight friends struggle to maintain their bond as adulthood complicates their connection."
   },
   {
     "title": "New Negress Film Society presents Black Women's Film Conference 2026",
@@ -121,13 +91,8 @@
   },
   {
     "title": "Castration Movie Chapter iii. Junior Ghosts—Premorphic Drift; a fragmentary passage",
-    "reason": "no_reply",
-    "candidate": ""
-  },
-  {
-    "title": "Dolly Double Feature: Steel Magnolias",
-    "reason": "no_reply",
-    "candidate": ""
+    "reason": "will_not_split_in_two",
+    "candidate": "A fragmentary postmodern epic\nexplores identity and transformation."
   },
   {
     "title": "Shorts: Black Queer Pride NY",
@@ -141,6 +106,16 @@
   },
   {
     "title": "In Spite of Ourselves",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Orion",
+    "reason": "no_reply",
+    "candidate": ""
+  },
+  {
+    "title": "Deep Red",
     "reason": "no_reply",
     "candidate": ""
   },
